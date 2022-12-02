@@ -1,0 +1,67 @@
+:root {
+    --color1: #ce7777;
+    --color2: #fff;
+    --color3: #2b3a55;
+    --color4: #f2e5e5;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.contact-title {
+    margin: auto;
+    text-align: center;
+    padding: 40px;
+}
+
+.contact-mes-infos {
+    padding: 0px 0 60px 0;
+}
+.contact-mes-infos h4 {
+    padding: 5px 0;
+    font-weight: bold;
+}
+.contact-mes-infos p {
+    padding: 0;
+    margin: 0;
+}
+
+.formulaire {
+    width: 900px;
+    height: 550px;
+    margin: auto;
+    background-color: var(--color4);
+    color: var(--color3);
+    border-radius: 10px;
+    border: 12px dashed var(--color1);
+    font-family: 'Courier New', Courier, monospace;
+    transform: translate(10px, -10px);
+    transition: transform 0.2s ease-out;
+}
+
+.formulaire:hover{
+    transform: translate(0px, 0px);
+}
+
+.postal-card-left {
+    float: left;
+    width: 60%;
+    padding: 40px;
+
+}
+
+.postal-card-right {
+    float: right;
+    width: 40%;
+    padding: 40px;
+}
+
+.contact-envoyer {
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    width: 20%;
+    
+}

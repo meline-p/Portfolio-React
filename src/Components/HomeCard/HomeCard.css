@@ -1,0 +1,143 @@
+:root {
+  --color1: #ce7777;
+  --color2: #fff;
+  --color3: #2b3a55;
+  --color4: #f2e5e5;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/********************** GROUP CARD  ************************/
+
+.home-cards {
+  text-align: center;
+  align-items: center;
+  margin: 0 0 0 28%;
+}
+
+/********************** HOME CARD  **********************/
+
+.profile {
+  border-style: none;
+  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 0;
+  max-width: 18rem;
+  display: inline-block;
+}
+
+.profile-body {
+  background-color: var(--color4);
+}
+
+.profile-img-top {
+  display: block;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 15px;
+}
+
+.profile-title {
+  font-weight: bold;
+  font-size: 22px;
+  margin: auto;
+  text-align: center;
+  padding: 15px;
+  color: var(--color3);
+}
+
+.profile-text {
+  font-weight: 400;
+  margin: auto;
+  text-align: center;
+  padding: 15px;
+  color: var(--color3);
+}
+
+hr.solid {
+  border: 1px solid var(--color1);
+  border-radius: 30px;
+  width: 30%;
+  margin: 15px auto;
+}
+
+.profile-footer {
+  border-style: none;
+  background-color: var(--color2);
+}
+
+.profile-link {
+  margin: auto;
+  padding: 5px;
+  text-align: center;
+  color: var(--color1);
+}
+
+.profile-link:hover {
+  color: var(--color3);
+}
+
+/********************** PRESENTATION **********************/
+
+.presentation {
+  padding: 30px;
+  max-width: 30%;
+  border-style: none;
+
+}
+
+.presentation-body{
+  background-color: transparent;
+  border-style: none;
+}
+
+.presentation-titre {
+  font-size: 100px;
+  font-weight: bold;
+  width: 30%;
+  padding: 0 0px 30px 0;
+  text-align: left;
+
+}
+
+.presentation-job {
+  font-size: 25px;
+  padding: 0 0px 30px 0;
+  text-align: left;
+
+}
+
+.btn {
+  display: inline-block;
+  width: 40%;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 12px;
+  padding: 10px;
+  margin: 0 5px 50px 0;
+}
+
+.btn-cv {
+  background-color: var(--color1);
+  border-style: none;
+}
+
+.btn-cv:hover {
+  background-color: var(--color4);
+}
+
+.btn-projets {
+  border-color: var(--color3);
+  color: var(--color3);
+}
+
+.btn-projets:hover {
+  background-color: var(--color3);
+  border-color: var(--color3);
+}
+
+.presentation p {
+  text-align: left;
+}

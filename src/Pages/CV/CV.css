@@ -1,0 +1,19 @@
+:root {
+    --color1: #ce7777;
+    --color2: #fff;
+    --color3: #2b3a55;
+    --color4: #f2e5e5;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+  
+ .cv-titre-components{
+  margin: auto;
+  text-align: center;
+  font-family: "Poppins", sans-serif ;
+  font-weight: bold;
+  padding: 60px 0 10px 0;
+  color: var(--color1);
+ }

@@ -1,0 +1,47 @@
+:root {
+    --color1: #ce7777;
+    --color2: #fff;
+    --color3: #2b3a55;
+    --color4: #f2e5e5;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar-cv-group {
+    margin: auto;
+    border-radius: 0px 0 40px 40px  ;
+    width: 40%;
+    background-color: var(--color1);
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.15);
+    transition: all 0.5s ease;
+}
+
+.navbar-cv {
+    list-style-type: none;
+}
+
+.nav-item {
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: 400;
+    margin: auto;
+    text-align: center;
+}
+
+.navbar-cv .nav-link {
+    color: var(--color4);
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.navbar-cv .nav-link:hover {
+    display: block;
+    color: var(--color2);
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.cv-icons{
+    font-size: 20px;
+}

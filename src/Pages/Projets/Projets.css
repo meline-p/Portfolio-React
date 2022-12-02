@@ -1,0 +1,51 @@
+:root {
+  --color1: #ce7777;
+  --color2: #fff;
+  --color3: #2b3a55;
+  --color4: #f2e5e5;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.featured-project {
+  position: relative;
+
+}
+
+.featured-project-img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.featured-project-infos {
+  color: var(--color2);
+  position: absolute;
+  top: 200px;
+  padding: 40px;
+  max-width: 500px;
+}
+
+.featured-project-infos h2 {
+  font-weight: bold;
+}
+
+.card-projects {
+padding: 40px;
+}
+
+.card-projects h3 {
+  color: var(--color3);
+  padding: 0 10px ;
+}
+
+.card-projects-item {
+  padding:  20px 10px;
+}
+
+.card-projects-item-title{
+  padding: 10px 0;
+  color: var(--color3);
+}

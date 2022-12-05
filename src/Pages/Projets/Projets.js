@@ -1,10 +1,15 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
+import frontProjetsData from "../../data/FrontProjetsData"
+import backProjetsData from "../../data/BackProjetsData"
+import fullStackProjetsData from "../../data/FullStackProjetsData"
+import { Link } from "react-router-dom";
 
 export default function Projets() {
   return (
     <div>
+
       <div className="featured-project">
         <img
           className="featured-project-img"
@@ -22,104 +27,78 @@ export default function Projets() {
         </div>
       </div>
 
-      <div className="card-projects full-stack">
-        <h3>Full Stack</h3>
-        <CardGroup className="projets-card-groups">
-          <Card className="card-projects-item" border="light" style={{ width: "18rem" }}>
-            <Card.Img src="https://www.springboard.com/blog/wp-content/uploads/2021/10/Essential-Full-Stack-Developer-Skills-scaled.jpg" />
-            <h5 className="card-projects-item-title">
-              Nom du Projet
-            </h5>
-          </Card>
 
-          <Card className="card-projects-item" border="light" style={{ width: "18rem" }}>
-            <Card.Img src="https://www.springboard.com/blog/wp-content/uploads/2021/10/Essential-Full-Stack-Developer-Skills-scaled.jpg" />
-            <h5 className="card-projects-item-title">
-              Nom du Projet
-            </h5>
-          </Card>
 
-          <Card className="card-projects-item" border="light" style={{ width: "18rem" }}>
-            <Card.Img src="https://www.springboard.com/blog/wp-content/uploads/2021/10/Essential-Full-Stack-Developer-Skills-scaled.jpg" />
-            <h5 className="card-projects-item-title">
-              Nom du Projet
-            </h5>
-          </Card>
-
-          <Card className="card-projects-item" border="light" style={{ width: "18rem" }}>
-            <Card.Img src="https://www.springboard.com/blog/wp-content/uploads/2021/10/Essential-Full-Stack-Developer-Skills-scaled.jpg" />
-            <h5 className="card-projects-item-title">
-              Nom du Projet
-            </h5>
-          </Card>
-        </CardGroup>
+      <h3 className="projet-type full-stack">Full-Stack</h3>
+      <div className="container-projets full-stack">
+        {fullStackProjetsData.map((projet) => (
+          <a
+            href={projet.url}
+            key={projet.id}
+          >
+            <div className="bloc-card">
+              <div className="projet-card">
+                <div className="visual-aspect">
+                  <img className="img-projet" src={projet.img} />
+                  <div className="info">
+                    <p>{projet.title}</p>
+                  </div>
+                </div>
+              </div>
+              <div className="back-card"></div>
+            </div>
+          </a>
+        ))}
       </div>
 
-      <div className="card-projects front-end">
-        <h3>Front-End</h3>
-        <CardGroup className="projets-card-groups">
-          <Card className="card-projects-item" border="light" style={{ width: "18rem" }}>
-            <Card.Img src="https://www.springboard.com/blog/wp-content/uploads/2021/10/Essential-Full-Stack-Developer-Skills-scaled.jpg" />
-            <h5 className="card-projects-item-title">
-              Nom du Projet
-            </h5>
-          </Card>
+      <hr className="projets-divider"></hr>
 
-          <Card className="card-projects-item" border="light" style={{ width: "18rem" }}>
-            <Card.Img src="https://www.springboard.com/blog/wp-content/uploads/2021/10/Essential-Full-Stack-Developer-Skills-scaled.jpg" />
-            <h5 className="card-projects-item-title">
-              Nom du Projet
-            </h5>
-          </Card>
-
-          <Card className="card-projects-item" border="light" style={{ width: "18rem" }}>
-            <Card.Img src="https://www.springboard.com/blog/wp-content/uploads/2021/10/Essential-Full-Stack-Developer-Skills-scaled.jpg" />
-            <h5 className="card-projects-item-title">
-              Nom du Projet
-            </h5>
-          </Card>
-
-          <Card className="card-projects-item" border="light" style={{ width: "18rem" }}>
-            <Card.Img src="https://www.springboard.com/blog/wp-content/uploads/2021/10/Essential-Full-Stack-Developer-Skills-scaled.jpg" />
-            <h5 className="card-projects-item-title">
-              Nom du Projet
-            </h5>
-          </Card>
-        </CardGroup>
+      <h3 className="projet-type front-end">Front-End</h3>
+      <div className="container-projets front-end">
+        {frontProjetsData.map((projet) => (
+          <a
+            href={projet.url}
+            key={projet.id}
+          >
+            <div className="bloc-card">
+              <div className="projet-card">
+                <div className="visual-aspect">
+                  <img className="img-projet" src={projet.img} />
+                  <div className="info">
+                    <p>{projet.title}</p>
+                  </div>
+                </div>
+              </div>
+              <div className="back-card"></div>
+            </div>
+          </a>
+        ))}
       </div>
 
-      <div className="card-projects back-end">
-        <h3>Back-End</h3>
-        <CardGroup className="projets-card-groups">
-          <Card className="card-projects-item" border="light" style={{ width: "18rem" }}>
-            <Card.Img src="https://www.springboard.com/blog/wp-content/uploads/2021/10/Essential-Full-Stack-Developer-Skills-scaled.jpg" />
-            <h5 className="card-projects-item-title">
-              Nom du Projet
-            </h5>
-          </Card>
+      <hr className="projets-divider"></hr>
 
-          <Card className="card-projects-item" border="light" style={{ width: "18rem" }}>
-            <Card.Img src="https://www.springboard.com/blog/wp-content/uploads/2021/10/Essential-Full-Stack-Developer-Skills-scaled.jpg" />
-            <h5 className="card-projects-item-title">
-              Nom du Projet
-            </h5>
-          </Card>
-
-          <Card className="card-projects-item" border="light" style={{ width: "18rem" }}>
-            <Card.Img src="https://www.springboard.com/blog/wp-content/uploads/2021/10/Essential-Full-Stack-Developer-Skills-scaled.jpg" />
-            <h5 className="card-projects-item-title">
-              Nom du Projet
-            </h5>
-          </Card>
-
-          <Card className="card-projects-item" border="light" style={{ width: "18rem" }}>
-            <Card.Img src="https://www.springboard.com/blog/wp-content/uploads/2021/10/Essential-Full-Stack-Developer-Skills-scaled.jpg" />
-            <h5 className="card-projects-item-title">
-              Nom du Projet
-            </h5>
-          </Card>
-        </CardGroup>
+      <h3 className="projet-type back-end">Back-End</h3>
+      <div className="container-projets back-end">
+        {backProjetsData.map((projet) => (
+          <a
+            href={projet.url}
+            key={projet.id}
+          >
+            <div className="bloc-card">
+              <div className="projet-card">
+                <div className="visual-aspect">
+                  <img className="img-projet" src="https://www.springboard.com/blog/wp-content/uploads/2021/10/Essential-Full-Stack-Developer-Skills-scaled.jpg" />
+                  <div className="info">
+                    <p>{projet.title}</p>
+                  </div>
+                </div>
+              </div>
+              <div className="back-card"></div>
+            </div>
+          </a>
+        ))}
       </div>
+
     </div>
 
   );

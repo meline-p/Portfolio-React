@@ -1,6 +1,6 @@
 import {v4 as uuidv4} from "uuid";
 
-const frontProjetsData =[
+const projetsData =[
     {
         title: "The Simon Game",
         type: "Front-End",
@@ -8,6 +8,13 @@ const frontProjetsData =[
         img:"images/Projets-img/TheSimonGame-img.png",
         id: uuidv4(),
         url: "https://meline-p.github.io/The-Simon-Game/"
+    },
+    {
+        title: "Blog Website",
+        type: "Back-End",
+        infos: "React App",
+        id: uuidv4(),
+        url: ""
     },
     {
         title: "Chrono Pomodoro",
@@ -85,7 +92,7 @@ const frontProjetsData =[
         title: "Quizz App",
         type: "Front-End",
         infos: "Javascript Project Challenge",
-        img:"",
+        img:"images/Projets-img/Quizz-App-img.png",
         id: uuidv4(),
         url: "https://meline-p.github.io/Quizz-App/"
     },
@@ -93,15 +100,15 @@ const frontProjetsData =[
         title: "Emojipedia",
         type: "Front-End",
         infos: "React App",
-        img:"",
+        img:"images/Projets-img/Emojipedia-img.png",
         id: uuidv4(),
-        url: "tttps://polr7z.csb.app/"
+        url: "https://polr7z.csb.app/"
     },
     {
         title: "Countdown Timer",
         type: "Front-End",
         infos: "Javascript Project Challenge",
-        img:"",
+        img:"images/Projets-img/Countdown-Timer-img.png",
         id: uuidv4(),
         url: "https://meline-p.github.io/Countdown-Timer/"
     },
@@ -109,7 +116,7 @@ const frontProjetsData =[
         title: "Analog App",
         type: "Front-End",
         infos: "Javascript Project Challenge",
-        img:"",
+        img:"images/Projets-img/Analog-App-img.png",
         id: uuidv4(),
         url: "https://meline-p.github.io/Analog-App/"
     },
@@ -117,15 +124,22 @@ const frontProjetsData =[
         title: "Dicee Game",
         type: "Front-End",
         infos: "Javascript Project Challenge",
-        img:"",
+        img:"images/Projets-img/Dicee-Game-img.png",
         id: uuidv4(),
         url: "https://meline-p.github.io/Dicee-Game/"
+    },
+    {
+        title: "Secret Project",
+        type: "Full-Stack",
+        infos: "",
+        id: uuidv4(),
+        url: ""
     },
     {
         title: "TinDog",
         type: "Front-End",
         infos: "Project to practice Bootstrap",
-        img:"",
+        img:"images/Projets-img/Tindog-img.png",
         id: uuidv4(),
         url: "https://meline-p.github.io/TinDog/"
     },
@@ -133,7 +147,7 @@ const frontProjetsData =[
         title: "Travel Agency",
         type: "Front-End",
         infos: "Landing Page with HTML/CSS",
-        img:"",
+        img:"images/Projets-img/Travel-Agency-img.png",
         id: uuidv4(),
         url: "https://meline-p.github.io/Travel-Agency/"
     },
@@ -141,10 +155,10 @@ const frontProjetsData =[
         title: "Recipies",
         type: "Front-End",
         infos: "Get deeper into CSS",
-        img:"",
+        img:"images/Projets-img/Recipies-img.png",
         id: uuidv4(),
         url: "https://meline-p.github.io/Recipies/"
     }
 ]
 
-export default frontProjetsData;
+export default projetsData;

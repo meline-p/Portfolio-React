@@ -36,3 +36,10 @@
     font-weight: 400;
     color: var(--color3);
 }
+
+.job-body{
+    padding: 20px;
+    margin: 0;
+    font-size: 18px;
+    color: var(--color3);
+}

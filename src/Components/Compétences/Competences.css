@@ -9,25 +9,38 @@
     font-family: "Poppins", sans-serif;
   }
 
+  /********************** Programmation / Logiciels ************************/
 .cv-competences-tabs{
-    margin: 0 25%;
+    margin: 40px 25%;
     padding: 30px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    padding: 10px;
+}
+
+.competences-title{
+    color: var(--color3);
+    font-size: 28px;
+}  
+
+.competences-title:hover{
+    color: var(--color3);
+}
+
+.competences-title:active{
+    color: var(--color3);
 }
 
 .competences-body{
     text-align: center;
-    margin: auto 10px;
-    background-color: var(--color3);
+    margin: 40px 20px;
     font-family: "Poppins", sans-serif;
-    border-radius: 10px;
-    padding: 10px;
-    
 }
 
 .competences-body h4{
     font-weight: bold;
-    color: var(--color2);
-    padding: 50px;
+    color: var(--color3);
+    padding: 20px;
     font-size: 20px;
 }
 
@@ -35,26 +48,58 @@
     font-size: 40px;
     color: var(--color2);
 }
+.competences-container-logo{
+    background-color: var(--color1);
+    border-radius: 10px;
+    padding: 10px;
+}
 
 .competences-logo{
     width: 90px;
+    
 }
 
-/* LANGUES */
+.animation-logo{
+    transform: translate(0px, 0px);
+    transition: transform 0.2s ease-out;
+}
+
+.animation-logo:hover{
+    transform: translate(10px, -10px);
+}
+
+
+
+/********************** LANGUES ************************/
+
+.container-languages{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 40px;
+}
 
 .competences-languagues{
     margin: auto;
     text-align: center;
     font-family: "Poppins", sans-serif;
-    width: 100%;
+    width: 40%;
 }
 
 .languagues-card{
-    background-color: var(--color3);
-    width: 40%;
+    background-color: var(--color1);
+    width: 350px;
     margin: auto;
     border-radius: 30px;
     padding: 20px; 
+    transform: translate(0px, 0px);
+    transition: transform 0.2s ease-out;
+}
+
+.languagues-card:hover{
+    transform: translate(10px, -10px);
 }
 
 .competences-languagues img{
@@ -65,6 +110,12 @@
     left: 55%;
     object-fit: cover;
     border-radius: 10px;
+    transform: rotate(0deg);
+    transition: transform 0.5s ease-out;
+}
+
+.competences-languagues img:hover{
+    transform: rotate(360deg);
 }
 
 .competences-languagues h4{

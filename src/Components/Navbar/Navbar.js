@@ -7,7 +7,7 @@ export default function Navbar() {
     <header>
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <Link to="/" className="navbar-brand">
+          <Link to="/Portfolio/" className="navbar-brand">
             <i class="fas fa-mug-hot"></i> Méline Pischedda
             <span> / DEVELOPPEUSE WEB</span>
           </Link>
@@ -15,25 +15,25 @@ export default function Navbar() {
           <div>
             <ul class="nav justify-content-end">
               <li class="nav-item">
-                <Link to="/" className="nav-link">
+                <Link to="/Portfolio/" className="nav-link">
                   A PROPOS DE MOI
                 </Link>
               </li>
 
               <li class="nav-item">
-                <Link to="/cv" className="nav-link">
+                <Link to="/Portfolio/cv" className="nav-link">
                   CV
                 </Link>
               </li>
 
               <li class="nav-item">
-                <Link to="/projets" className="nav-link">
+                <Link to="/Portfolio/projets" className="nav-link">
                   PROJETS
                 </Link>
               </li>
 
               <li class="nav-item">
-                <Link to="/contact" className="nav-link">
+                <Link to="/Portfolio/contact" className="nav-link">
                   CONTACT
                 </Link>
               </li>

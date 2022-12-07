@@ -7,7 +7,7 @@ import CardGroup from "react-bootstrap/CardGroup";
 export default function Competences() {
 
   const env = process.env;
-  env.PUBLIC_URL = env.PUBLIC_URL || "";
+  env.PUBLIC_URL = env.PUBLIC_URL + "Portfolio/" || "Portfolio/";
 
   return (
     <div className="cv-components">

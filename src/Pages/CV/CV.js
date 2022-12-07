@@ -11,9 +11,9 @@ export default function CV() {
       <Router>
         <NavbarCV />
         <Switch>
-          <Route exact path="/cv" component={ExperiencePro} />
-          <Route exact path="/cv/formation"  component={Formation} />
-          <Route exact path="/cv/competences"  component={Competences} />
+          <Route exact path="/Portfolio/cv" component={ExperiencePro} />
+          <Route exact path="/Portfolio/cv/formation"  component={Formation} />
+          <Route exact path="/Portfolio/cv/competences"  component={Competences} />
         </Switch>
         
       </Router>

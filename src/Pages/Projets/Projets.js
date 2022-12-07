@@ -6,6 +6,10 @@ import { Link } from "react-router-dom";
 import Badge from 'react-bootstrap/Badge';
 
 export default function Projets() {
+
+  const env = process.env;
+  env.PUBLIC_URL = env.PUBLIC_URL + "Portfolio/" || "Portfolio/";
+
   return (
     <div>
 
@@ -55,3 +59,10 @@ export default function Projets() {
 
 
 // {bg =  {projet.type} == "Front-End" ? "success" : {projet.type} == "Back-End" ? "warning"  : "primary" }
+// {
+//   ProjetsTypeData.map((type) => {
+//     return (
+//       <li><a href="#"><Badge onClick={(e) => {selectType(e.target.name)}} name={type.name} bg={isActive ? type.badgeColor : "secondary"} text="light">{type.name}</Badge></a></li>
+//     )
+//   })
+// }

@@ -7,14 +7,16 @@ const projetsData =[
         infos: "Javascript Challenge Project",
         img:"images/Projets-img/TheSimonGame-img.png",
         id: uuidv4(),
-        url: "https://meline-p.github.io/The-Simon-Game/"
+        url: "https://meline-p.github.io/The-Simon-Game/",
+        active: true
     },
     {
         title: "Blog Website",
         type: "Back-End",
         infos: "React App",
         id: uuidv4(),
-        url: ""
+        url: "",
+        active: true
     },
     {
         title: "Chrono Pomodoro",
@@ -22,7 +24,8 @@ const projetsData =[
         infos: "React App",
         img:"images/Projets-img/Chrono-Pomodoro-img.png",
         id: uuidv4(),
-        url: "https://f5frcm.csb.app/"
+        url: "https://f5frcm.csb.app/",
+        active: true
     },
     {
         title: "React Animations",
@@ -30,7 +33,8 @@ const projetsData =[
         infos: "React App",
         img:"images/Projets-img/React-Animations-img.png",
         id: uuidv4(),
-        url: "https://g4jflv.csb.app/"
+        url: "https://g4jflv.csb.app/",
+        active: true
     },
     {
         title: "E-Commerce",
@@ -38,7 +42,8 @@ const projetsData =[
         infos: "React App",
         img:"images/Projets-img/E-Commerce-img.png",
         id: uuidv4(),
-        url: "https://exzire.csb.app/"
+        url: "https://exzire.csb.app/",
+        active: true
     },
     {
         title: "Drum Kit",
@@ -46,7 +51,8 @@ const projetsData =[
         infos: "Javascript Project Challenge",
         img:"images/Projets-img/Drum-Kit-img.png",
         id: uuidv4(),
-        url: "https://meline-p.github.io/Drum-Kit/"
+        url: "https://meline-p.github.io/Drum-Kit/",
+        active: true
     },
     {
         title: "Multi-Langs Website",
@@ -54,7 +60,8 @@ const projetsData =[
         infos: "React App",
         img:"images/Projets-img/Multi-Langs-Website-img.png",
         id: uuidv4(),
-        url: "https://5bft3n.csb.app/"
+        url: "https://5bft3n.csb.app/",
+        active: true
     },
     {
         title: "Coworking Website",
@@ -62,7 +69,8 @@ const projetsData =[
         infos: "",
         img:"images/Projets-img/Coworking-Website-img.png",
         id: uuidv4(),
-        url: "https://meline-p.github.io/Coworking-Website/"
+        url: "https://meline-p.github.io/Coworking-Website/",
+        active: true
     },
     {
         title: "Keeper App",
@@ -70,7 +78,8 @@ const projetsData =[
         infos: "React App",
         img:"images/Projets-img/Keeper-App-img.png",
         id: uuidv4(),
-        url: "https://z81be1.csb.app/"
+        url: "https://z81be1.csb.app/",
+        active: true
     },
     {
         title: "Snake",
@@ -78,7 +87,8 @@ const projetsData =[
         infos: "Javascript Project Challenge",
         img:"images/Projets-img/Snake-img.png",
         id: uuidv4(),
-        url: "https://meline-p.github.io/Snake-Game/"
+        url: "https://meline-p.github.io/Snake-Game/",
+        active: true
     },
     {
         title: "To Do List",
@@ -86,7 +96,8 @@ const projetsData =[
         infos: "React App",
         img:"images/Projets-img/To-Do-List-img.png",
         id: uuidv4(),
-        url: "https://uf86si.csb.app/"
+        url: "https://uf86si.csb.app/",
+        active: true
     },
     {
         title: "Quizz App",
@@ -94,7 +105,8 @@ const projetsData =[
         infos: "Javascript Project Challenge",
         img:"images/Projets-img/Quizz-App-img.png",
         id: uuidv4(),
-        url: "https://meline-p.github.io/Quizz-App/"
+        url: "https://meline-p.github.io/Quizz-App/",
+        active: true
     },
     {
         title: "Emojipedia",
@@ -102,7 +114,8 @@ const projetsData =[
         infos: "React App",
         img:"images/Projets-img/Emojipedia-img.png",
         id: uuidv4(),
-        url: "https://polr7z.csb.app/"
+        url: "https://polr7z.csb.app/",
+        active: true
     },
     {
         title: "Countdown Timer",
@@ -110,7 +123,8 @@ const projetsData =[
         infos: "Javascript Project Challenge",
         img:"images/Projets-img/Countdown-Timer-img.png",
         id: uuidv4(),
-        url: "https://meline-p.github.io/Countdown-Timer/"
+        url: "https://meline-p.github.io/Countdown-Timer/",
+        active: true
     },
     {
         title: "Analog App",
@@ -118,7 +132,8 @@ const projetsData =[
         infos: "Javascript Project Challenge",
         img:"images/Projets-img/Analog-App-img.png",
         id: uuidv4(),
-        url: "https://meline-p.github.io/Analog-App/"
+        url: "https://meline-p.github.io/Analog-App/",
+        active: true
     },
     {
         title: "Dicee Game",
@@ -126,14 +141,16 @@ const projetsData =[
         infos: "Javascript Project Challenge",
         img:"images/Projets-img/Dicee-Game-img.png",
         id: uuidv4(),
-        url: "https://meline-p.github.io/Dicee-Game/"
+        url: "https://meline-p.github.io/Dicee-Game/",
+        active: true
     },
     {
         title: "Secret Project",
         type: "Full-Stack",
         infos: "",
         id: uuidv4(),
-        url: ""
+        url: "",
+        active: true
     },
     {
         title: "TinDog",
@@ -141,7 +158,8 @@ const projetsData =[
         infos: "Project to practice Bootstrap",
         img:"images/Projets-img/Tindog-img.png",
         id: uuidv4(),
-        url: "https://meline-p.github.io/TinDog/"
+        url: "https://meline-p.github.io/TinDog/",
+        active: true
     },
     {
         title: "Travel Agency",
@@ -149,7 +167,8 @@ const projetsData =[
         infos: "Landing Page with HTML/CSS",
         img:"images/Projets-img/Travel-Agency-img.png",
         id: uuidv4(),
-        url: "https://meline-p.github.io/Travel-Agency/"
+        url: "https://meline-p.github.io/Travel-Agency/",
+        active: true
     },
     {
         title: "Recipies",
@@ -157,7 +176,8 @@ const projetsData =[
         infos: "Get deeper into CSS",
         img:"images/Projets-img/Recipies-img.png",
         id: uuidv4(),
-        url: "https://meline-p.github.io/Recipies/"
+        url: "https://meline-p.github.io/Recipies/",
+        active: true
     }
 ]
 

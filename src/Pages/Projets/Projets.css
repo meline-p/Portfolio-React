@@ -54,6 +54,7 @@ body {
   padding: 40px 0 0 40px;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
+  text-align: center;
 }
 
 .container-projets {
@@ -61,8 +62,8 @@ body {
   padding: 10px 20px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: left;
-  align-items: left;
+  justify-content: center;
+  align-items: center;
   font-family: "Poppins", sans-serif;
 }
 

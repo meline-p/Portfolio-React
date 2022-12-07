@@ -21,10 +21,10 @@ export default function App() {
     <Router>
       <Navbar />
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/cv" component={CV} />
-        <Route exact path="/projets" component={Projets} />
-        <Route exact path="/contact" component={Contact} />
+        <Route exact path="/Portfolio/" component={Home} />
+        <Route exact path="/Portfolio/cv" component={CV} />
+        <Route exact path="/Portfolio/projets" component={Projets} />
+        <Route exact path="/Portfolio/contact" component={Contact} />
       </Switch>
     </Router>
   );

@@ -17,10 +17,31 @@ export default function NavbarMain() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="justify-content-end flex-grow-1 pe-3">
-            <Nav.Link href="/Portfolio">A PROPOS DE MOI</Nav.Link>
-            <Nav.Link href="/Portfolio/cv">CV</Nav.Link>
-            <Nav.Link href="/Portfolio/projets">PROJETS</Nav.Link>
-            <Nav.Link href="/Portfolio/contact">CONTACT</Nav.Link>
+            <ul class="nav justify-content-end">
+              <li class="nav-item">
+                <Link to="/Portfolio/" className="nav-link">
+                  A PROPOS DE MOI
+                </Link>
+              </li>
+
+              <li class="nav-item">
+                <Link to="/Portfolio/cv" className="nav-link">
+                  CV
+                </Link>
+              </li>
+
+              <li class="nav-item">
+                <Link to="/Portfolio/projets" className="nav-link">
+                  PROJETS
+                </Link>
+              </li>
+
+              <li class="nav-item">
+                <Link to="/Portfolio/contact" className="nav-link">
+                  CONTACT
+                </Link>
+              </li>
+            </ul>
           </Nav>
         </Navbar.Collapse>
       </Container>

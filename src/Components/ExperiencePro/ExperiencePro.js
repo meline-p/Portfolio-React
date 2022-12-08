@@ -15,7 +15,7 @@ export default function ExperiencePro() {
                 <Accordion.Header className="job-header">
                   <div className="job-header-container">
                     <div className="job-header-container-img">
-                      <img className="job-img" src={xp.img} />
+                      <img className="job-img" src={xp.img} alt={xp.company} />
                     </div>
                     <div className="job-header-container-infos">
                       <h3 className="job-name">

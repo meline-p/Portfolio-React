@@ -8,7 +8,7 @@ import "./Components/NavbarCV/NavbarCV.css";
 import "./Components/ExperiencePro/ExperiencePro.css";
 import "./Components/Compétences/Competences.css"
 import "./Components/Formation/Formation.css"
-import NavbarMain from "./Components/Navbar/NavbarMain";
+import NavbarMain from "./Components/NavbarMain/NavbarMain";
 import Home from "./Pages/Home/Home";
 import CV from "./Pages/CV/CV";
 import Contact from "./Pages/Contact/Contact";

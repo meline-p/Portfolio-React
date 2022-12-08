@@ -189,7 +189,7 @@ export default function Competences() {
               <div className=" container-languages">
                 <Card.Body className="competences-languagues">
                   <div className="languagues-card">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg/1200px-Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg.png" />
+                    <img alt="French Flag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg/1200px-Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg.png" />
                     <h4>Bonjour</h4>
                     <p>Native</p>
                   </div>
@@ -197,7 +197,7 @@ export default function Competences() {
 
                 <Card.Body className="competences-languagues">
                   <div className="languagues-card">
-                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/640px-Flag_of_the_United_Kingdom.svg.png" />
+                    <img alt="English Flag"  src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/640px-Flag_of_the_United_Kingdom.svg.png" />
                     <h4>Hello</h4>
                     <p>Courant</p>
                   </div>
@@ -205,7 +205,7 @@ export default function Competences() {
 
                 <Card.Body className="competences-languagues">
                   <div className="languagues-card">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/1200px-Bandera_de_Espa%C3%B1a.svg.png" />
+                    <img alt="Spanish Flag"  src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/1200px-Bandera_de_Espa%C3%B1a.svg.png" />
                     <h4>Holà</h4>
                     <p>Intermédiaire</p>
                   </div>
@@ -213,7 +213,7 @@ export default function Competences() {
 
                 <Card.Body className="competences-languagues">
                   <div className="languagues-card">
-                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/255px-Flag_of_Italy.svg.png" />
+                    <img alt="Italian Flag"  src="https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/255px-Flag_of_Italy.svg.png" />
                     <h4>Buongiorno</h4>
                     <p>Débutante</p>
                   </div>
@@ -221,7 +221,7 @@ export default function Competences() {
 
                 <Card.Body className="competences-languagues">
                   <div className="languagues-card">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Flag_of_South_Korea_%281997%E2%80%932011%29.svg/220px-Flag_of_South_Korea_%281997%E2%80%932011%29.svg.png" />
+                    <img alt="Korean Flag"  src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Flag_of_South_Korea_%281997%E2%80%932011%29.svg/220px-Flag_of_South_Korea_%281997%E2%80%932011%29.svg.png" />
                     <h4>안녕하세요</h4>
                     <p>Débutante</p>
                   </div>

@@ -13,12 +13,21 @@ export default function ExperiencePro() {
             {ExperienceProData.map((xp) => (
               <Accordion.Item eventKey={xp.id}>
                 <Accordion.Header className="job-header">
-                  <h3 className="job-name">
-                    {xp.job} <br />
-                    <span className="job-company">{xp.company} - {xp.place}</span>
-                    <br />
-                    <span className="job-year">{xp.year} {xp.timeLength}</span>
-                  </h3>
+                  <div className="job-header-container">
+                    <div className="job-header-container-img">
+                      <img className="job-img" src={xp.img} />
+                    </div>
+                    <div className="job-header-container-infos">
+                      <h3 className="job-name">
+                        {xp.job} <br />
+                        <span className="job-company">{xp.company} - {xp.place}</span>
+                        <br />
+                        <span className="job-year">{xp.year} {xp.timeLength}</span>
+                      </h3>
+                    </div>
+
+                  </div>
+
                 </Accordion.Header>
                 <Accordion.Body>
                   <div className="job-body">

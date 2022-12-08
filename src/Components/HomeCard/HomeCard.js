@@ -6,6 +6,10 @@ export default function HomeCard() {
   const env = process.env;
   env.PUBLIC_URL = env.PUBLIC_URL + "Portfolio/" || "Portfolio/";
 
+  const openInNewTab = url => {
+    window.open(url, '_blank', 'noopener,noreferrer');
+  };
+
   return (
     <CardGroup className="home-cards">
       <Card className="profile" >
@@ -18,13 +22,13 @@ export default function HomeCard() {
           <h6 className="profile-text">DEVELOPPEUSE WEB</h6>
         </Card.Body>
         <Card.Footer className="profile-footer">
-          <a href="#" className="profile-link">
+          <a onClick={() => openInNewTab("https://www.linkedin.com/in/melinepischedda/")} className="profile-link">
             <i class="fa-brands fa-linkedin"></i>
           </a>
-          <a href="#" className="profile-link">
+          <a  onClick={() => openInNewTab("https://github.com/meline-p")} className="profile-link">
             <i class="fa-brands fa-github"></i>
           </a>
-          <a href="#" className="profile-link">
+          <a  onClick={() => openInNewTab("https://www.instagram.com/melinepischedda/")} className="profile-link">
             <i class="fa-brands fa-instagram"></i>
           </a>
         </Card.Footer>

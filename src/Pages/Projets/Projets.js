@@ -10,6 +10,10 @@ export default function Projets() {
   const env = process.env;
   env.PUBLIC_URL = env.PUBLIC_URL + "Portfolio/" || "Portfolio/";
 
+  const openInNewTab = url => {
+    window.open(url, '_blank', 'noopener,noreferrer');
+  };
+
   return (
     <div>
 
@@ -25,7 +29,7 @@ export default function Projets() {
           <p>
           Javascript Challenge Project
           </p>
-          <button className="btn btn-light"><a className="featured-project-button" href="https://meline-p.github.io/Analog-App/">Voir le projet</a></button>
+          <button className="btn btn-light"><a className="featured-project-button" onClick={()=> openInNewTab("https://meline-p.github.io/Analog-App/")}>Voir le projet</a></button>
         </div>
       </div>
 
@@ -33,7 +37,7 @@ export default function Projets() {
       <div className="container-projets front-end">
         {projetsData.map((projet) => (
           <a
-            href={projet.url}
+            onClick={()=> openInNewTab(projet.url)}
             key={projet.id}
           >
             <div className="bloc-card">

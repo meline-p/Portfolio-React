@@ -8,7 +8,7 @@ import "./Components/NavbarCV/NavbarCV.css";
 import "./Components/ExperiencePro/ExperiencePro.css";
 import "./Components/Compétences/Competences.css"
 import "./Components/Formation/Formation.css"
-import Navbar from "./Components/Navbar/Navbar";
+import NavbarMain from "./Components/Navbar/NavbarMain";
 import Home from "./Pages/Home/Home";
 import CV from "./Pages/CV/CV";
 import Contact from "./Pages/Contact/Contact";
@@ -19,7 +19,7 @@ import '@trendmicro/react-sidenav/dist/react-sidenav.css';
 export default function App() {
   return (
     <Router>
-      <Navbar />
+      <NavbarMain />
       <Switch>
         <Route exact path="/Portfolio/" component={Home} />
         <Route exact path="/Portfolio/cv" component={CV} />

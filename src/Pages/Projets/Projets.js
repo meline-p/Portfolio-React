@@ -16,7 +16,7 @@ export default function Projets() {
       <div className="featured-project">
         <img
           className="featured-project-img"
-          src="images/Projets-img/Analog-App-img.png"
+          src="https://meline-p.github.io/Ressources/images/Pojets-img/Analog-App-img.png"
           alt="projet à la une"
         />
         <div className="featured-project-infos">
@@ -25,7 +25,7 @@ export default function Projets() {
           <p>
           Javascript Challenge Project
           </p>
-          <button className="btn btn-light">Voir le projet</button>
+          <button className="btn btn-light"><a className="featured-project-button" href="https://meline-p.github.io/Analog-App/">Voir le projet</a></button>
         </div>
       </div>
 

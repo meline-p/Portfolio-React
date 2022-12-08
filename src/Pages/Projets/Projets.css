@@ -42,7 +42,10 @@ body {
   font-weight: bold;
 }
 
-
+.featured-project-button{
+  text-decoration: none;
+  color: var(--color3);
+}
 
 
 /*  */

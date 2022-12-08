@@ -2,7 +2,6 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
 
-
 export default function HomeCard() {
   const env = process.env;
   env.PUBLIC_URL = env.PUBLIC_URL + "Portfolio/" || "Portfolio/";
@@ -11,7 +10,7 @@ export default function HomeCard() {
     <CardGroup className="home-cards">
       <Card className="profile" >
         <Card.Body className="profile-body">
-          <img src={process.env.PUBLIC_URL + "/images/meline.png"}
+          <img src="https://media-exp1.licdn.com/dms/image/C4E03AQH6lmXBz0ktOQ/profile-displayphoto-shrink_200_200/0/1638373279287?e=1675900800&v=beta&t=hWwZjHtSs2_MEPP0_hVI8ubEUzdquoHqpFMS48EGf9Q"
             className="profile-img-top"
             alt="profil-picture" />
           <h5 className="profile-title">Méline <br /> Pischedda</h5>

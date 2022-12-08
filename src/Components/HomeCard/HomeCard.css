@@ -37,6 +37,7 @@ body {
   margin: auto;
   text-align: center;
   padding: 15px;
+  border-radius: 50%;
 }
 
 .profile-title {

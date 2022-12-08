@@ -4,6 +4,34 @@ import Tabs from "react-bootstrap/Tabs";
 import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
 
+// import jQuery from "https://meline-p.github.io/Ressources/images/Logo/jQuery-logo.png";
+// import expressJs from "https://meline-p.github.io/Ressources/images/Logo/expressjs-logo.png";
+// import EJS from "https://meline-p.github.io/Ressources/images/Logo/ejs-logo.png";
+// import MySQL from "https://meline-p.github.io/Ressources/images/Logo/mysql-logo.png";
+// import MongoDB from "https://meline-p.github.io/Ressources/images/Logo/mongodb-logo.png";
+// import Mongoose from "https://meline-p.github.io/Ressources/images/Logo/mongoose-logo.png";
+// import Heroku from "https://meline-p.github.io/Ressources/images/Logo/heroku-logo.png";
+// import MongoDBAtlas from "https://meline-p.github.io/Ressources/images/Logo/mongodbatlas-logo.png";
+
+// import Maya from "https://meline-p.github.io/Ressources/images/Logo/maya-logo.png"
+// import Yeti from "https://meline-p.github.io/Ressources/images/Logo/yeti-logo.png"
+// import Houdini from "https://meline-p.github.io/Ressources/images/Logo/houdini-logo.png"
+// import Blender from "https://meline-p.github.io/Ressources/images/Logo/blender-logo.png"
+// import zBrush from "https://meline-p.github.io/Ressources/images/Logo/zbrush-logo.png"
+// import DSMax from "https://meline-p.github.io/Ressources/images/Logo/3dsmax-logo.png"
+// import Nuke from  "https://meline-p.github.io/Ressources/images/Logo/nuke-logo.png"
+// import Mari from  "https://meline-p.github.io/Ressources/images/Logo/mari-logo.png"
+// import SubstancePainter from  "https://meline-p.github.io/Ressources/images/Logo/substancepainter-logo.png"
+// import SubstanceDesigner from  "https://meline-p.github.io/Ressources/images/Logo/substancedesigner-logo.png"
+// import Marvelous from "https://meline-p.github.io/Ressources/images/Logo/marvelousdesigner-logo.png"
+// import Photoshop from "https://meline-p.github.io/Ressources/images/Logo/photoshop-logo-03.png"
+// import inDesign from  "https://meline-p.github.io/Ressources/images/Logo/indesign-logo-03.png"
+// import illustrator from  "https://meline-p.github.io/Ressources/images/Logo/illustrator-logo-03.png"
+// import AfterEffects from "https://meline-p.github.io/Ressources/images/Logo/aftereffects-logo-03.png"
+// import PremierePro from "https://meline-p.github.io/Ressources/images/Logo/premierepro-logo-03.png"
+// import MediaEncoder from "https://meline-p.github.io/Ressources/images/Logo/mediaencoder-logo-03.png"
+
+
 export default function Competences() {
 
   const env = process.env;
@@ -27,7 +55,7 @@ export default function Competences() {
                     <i class="animation-logo fa-brands fa-bootstrap"></i>{" "}
                     <i class="animation-logo fa-brands fa-react"></i>{" "}
                     <i class="animation-logo fa-brands fa-wordpress"></i>
-                    <img src={process.env.PUBLIC_URL + `/images/jQuery-logo.png`}
+                    <img src="https://meline-p.github.io/Ressources/images/Logo/jQuery-logo.png"
                       className="animation-logo competences-logo"
                       alt="jQuery" />
                   </p>
@@ -39,19 +67,19 @@ export default function Competences() {
                   <h4>Back-End</h4>
                   <p className="animation-logo competences-container-logo">
                     <i class="animation-logo fa-brands fa-node-js"></i> <i class=" animation-logo fa-brands fa-php"></i>
-                    <img src={process.env.PUBLIC_URL + `/images/expressjs-logo.png`}
+                    <img src="https://meline-p.github.io/Ressources/images/Logo/expressjs-logo.png"
                       className=" animation-logo competences-logo"
                       alt="express.js" />
-                    <img src={process.env.PUBLIC_URL + `/images/ejs-logo.png`}
+                    <img src="https://meline-p.github.io/Ressources/images/Logo/ejs-logo.png"
                       className=" animation-logo competences-logo"
                       alt="EJS" />
-                    <img src={process.env.PUBLIC_URL + `/images/mysql-logo.png`}
+                    <img src="https://meline-p.github.io/Ressources/images/Logo/mysql-logo.png"
                       className=" animation-logo competences-logo"
                       alt="MySQL" />
-                    <img src={process.env.PUBLIC_URL + `/images/mongodb-logo.png`}
+                    <img src="https://meline-p.github.io/Ressources/images/Logo/mongodb-logo.png"
                       className="animation-logo competences-logo"
                       alt="MongoDB" />
-                    <img src={process.env.PUBLIC_URL + `/images/mongoose-logo.png`}
+                    <img src="https://meline-p.github.io/Ressources/images/Logo/mongoose-logo.png"
                       className="animation-logo competences-logo"
                       alt="Mongoose" />
                     <i class="animation-logo fa-solid fa-user-lock"></i> <i class=" animation-logo fa-solid fa-user-shield"></i> APIs
@@ -65,10 +93,10 @@ export default function Competences() {
                   <p className="animation-logo competences-container-logo">
                     <i class="animation-logo fa-brands fa-git"></i>{" "}
                     <i class="animation-logo fa-brands fa-github"></i>
-                    <img src={process.env.PUBLIC_URL + `/images/heroku-logo.png`}
+                    <img src="https://meline-p.github.io/Ressources/images/Logo/heroku-logo.png"
                       className="animation-logo competences-logo"
                       alt="Heroku" />
-                    <img src={process.env.PUBLIC_URL + `/images/mongodbatlas-logo.png`}
+                    <img src="https://meline-p.github.io/Ressources/images/Logo/mongodbatlas-logo.png"
                       className="animation-logo competences-logo"
                       alt="MongoDB Atlas" />
                   </p>
@@ -83,16 +111,16 @@ export default function Competences() {
                 <Card.Body className="competences-body">
                   <h4>Grooming</h4>
                   <p className="animation-logo competences-container-logo">
-                    <img src={process.env.PUBLIC_URL + `/images/maya-logo.png`}
+                    <img src="https://meline-p.github.io/Ressources/images/Logo/maya-logo.png"
                       className="animation-logo competences-logo"
                       alt="Maya" />
-                    <img src={process.env.PUBLIC_URL + `/images/yeti-logo.png`}
+                    <img src="https://meline-p.github.io/Ressources/images/Logo/yeti-logo.png"
                       className="animation-logo competences-logo"
                       alt="Yeti" />
-                    <img src={process.env.PUBLIC_URL + `/images/houdini-logo.png`}
+                    <img src="https://meline-p.github.io/Ressources/images/Logo/houdini-logo.png"
                       className="animation-logo competences-logo"
                       alt="Houdini" />
-                    <img src={process.env.PUBLIC_URL + `/images/blender-logo.png`}
+                    <img src="https://meline-p.github.io/Ressources/images/Logo/blender-logo.png"
                       className="animation-logo competences-logo"
                       alt="Blender" />
                   </p>
@@ -103,25 +131,25 @@ export default function Competences() {
                 <Card.Body className="competences-body">
                   <h4>Autres</h4>
                   <p className="animation-logo competences-container-logo">
-                    <img src={process.env.PUBLIC_URL + `/images/zbrush-logo.png`}
+                    <img src="https://meline-p.github.io/Ressources/images/Logo/zbrush-logo.png"
                       className="animation-logo competences-logo"
                       alt="ZBrush" />
-                    <img src={process.env.PUBLIC_URL + `/images/3dsmax-logo.png`}
+                    <img src="https://meline-p.github.io/Ressources/images/Logo/3dsmax-logo.png"
                       className="animation-logo competences-logo"
                       alt="3DSMax" />
-                    <img src={process.env.PUBLIC_URL + `/images/nuke-logo.png`}
+                    <img src="https://meline-p.github.io/Ressources/images/Logo/nuke-logo.png"
                       className="animation-logo competences-logo"
                       alt="Nuke" />
-                    <img src={process.env.PUBLIC_URL + `/images/mari-logo.png`}
+                    <img src="https://meline-p.github.io/Ressources/images/Logo/mari-logo.png"
                       className="animation-logo competences-logo"
                       alt="Mari" />
-                    <img src={process.env.PUBLIC_URL + `/images/substancepainter-logo.png`}
+                    <img src="https://meline-p.github.io/Ressources/images/Logo/substancepainter-logo.png"
                       className="animation-logo competences-logo"
                       alt="Substance Painter" />
-                    <img src={process.env.PUBLIC_URL + `/images/substancedesigner-logo.png`}
+                    <img src="https://meline-p.github.io/Ressources/images/Logo/substancedesigner-logo.png"
                       className="animation-logo competences-logo"
                       alt="Substance Designer" />
-                    <img src={process.env.PUBLIC_URL + `/images/marvelousdesigner-logo.png`}
+                    <img src="https://meline-p.github.io/Ressources/images/Logo/marvelousdesigner-logo.png"
                       className="animation-logo competences-logo"
                       alt="Marvelous Designer" />
                   </p>
@@ -132,22 +160,22 @@ export default function Competences() {
                 <Card.Body className="competences-body">
                   <h4>Adobe Suite</h4>
                   <p className="animation-logo competences-container-logo">
-                    <img src={process.env.PUBLIC_URL + `/images/photoshop-logo-03.png`}
+                    <img src="https://meline-p.github.io/Ressources/images/Logo/photoshop-logo-03.png"
                       className="animation-logo competences-logo"
                       alt="Photoshop" />
-                    <img src={process.env.PUBLIC_URL + `/images/indesign-logo-03.png`}
+                    <img src="https://meline-p.github.io/Ressources/images/Logo/indesign-logo-03.png"
                       className="animation-logo competences-logo"
                       alt="InDesign" />
-                    <img src={process.env.PUBLIC_URL + `/images/illustrator-logo-03.png`}
+                    <img src="https://meline-p.github.io/Ressources/images/Logo/illustrator-logo-03.png"
                       className="animation-logo competences-logo"
                       alt="Illustrator" />
-                    <img src={process.env.PUBLIC_URL + `/images/aftereffects-logo-03.png`}
+                    <img src="https://meline-p.github.io/Ressources/images/Logo/aftereffects-logo-03.png"
                       className="animation-logo competences-logo"
                       alt="After Effects" />
-                    <img src={process.env.PUBLIC_URL + `/images/premierepro-logo-03.png`}
+                    <img src="https://meline-p.github.io/Ressources/images/Logo/premierepro-logo-03.png"
                       className="animation-logo competences-logo"
                       alt="Premiere Pro" />
-                    <img src={process.env.PUBLIC_URL + `/images/mediaencoder-logo-03.png`}
+                    <img src="https://meline-p.github.io/Ressources/images/Logo/mediaencoder-logo-03.png"
                       className="animation-logo competences-logo"
                       alt="Media Encoder" />
                   </p>

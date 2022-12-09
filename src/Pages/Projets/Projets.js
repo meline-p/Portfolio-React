@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import projetsData from "../../data/projetsData"
-import Badge from 'react-bootstrap/Badge';
 import ProjetsCard from "../../Components/ProjetsCard/ProjetsCard";
 import ProjetsButtons from "../../Components/ProjetsCard/ProjetsButtons";
 
@@ -20,9 +19,9 @@ export default function Projets() {
   const env = process.env;
   env.PUBLIC_URL = env.PUBLIC_URL + "Portfolio/" || "Portfolio/";
 
-  const openInNewTab = url => {
-    window.open(url, '_blank', 'noopener,noreferrer');
-  };
+  // const openInNewTab = url => {
+  //   window.open(url, '_blank', 'noopener,noreferrer');
+  // };
 
   return (
     <div>

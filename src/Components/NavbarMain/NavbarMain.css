@@ -8,18 +8,31 @@
   body {
     font-family: "Poppins", sans-serif;
   }
-  
+
+
+
+  .navbar-brand-name{
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--color3);
+  }
+  .navbar-brand-name span{
+    font-size: 18px;
+  }
+
+/*   
   .navbar {
     background-color: var(--color2);
     box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.2);
   }
+
   
   .container-fluid {
     padding: 25px 40px;
   }
   
   .navbar-brand {
-    font-size: 25px;
+    font-size: 50px;
     font-weight: bold;
     color: var(--color3);
   }
@@ -37,9 +50,23 @@
   
   .nav-link.active {
     color: var(--color1);
-  }
+  } */
   
   .fa-mug-hot {
     color: var(--color1);
   }
   
+  @media only screen and (max-width: 600px) {
+
+    /* For Mobile */
+    .navbar-brand-name{
+      font-size: 16px;
+      font-weight: bold;
+      color: var(--color3);
+    }
+    .navbar-brand-name span{
+      font-size: 10px;
+    }
+
+
+  }

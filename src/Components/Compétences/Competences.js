@@ -39,7 +39,167 @@ export default function Competences() {
 
   return (
     <div className="cv-components">
-      <h1 className="cv-titre-components">Compétences</h1>
+      <h1 className="comp-title">Compétences</h1>
+
+      <div className="container-competences">
+        <div className="container-programmation">
+          <h2><i class="fa-solid fa-code"></i></h2>
+          <div className="prog-front">
+            <h4>Front-End</h4>
+            <p className=" competences-container-logo">
+              <i class="animation-logo fa-brands fa-html5"></i>{" "}
+              <i class="animation-logo fa-brands fa-css3-alt"></i>{" "}
+              <i class="animation-logo fa-brands fa-square-js"></i>{" "}
+              <i class="animation-logo fa-brands fa-sass"></i>{" "}
+              <i class="animation-logo fa-brands fa-bootstrap"></i>{" "}
+              <i class="animation-logo fa-brands fa-react"></i>{" "}
+              <i class="animation-logo fa-brands fa-wordpress"></i>
+              <img src="https://meline-p.github.io/Ressources/images/Logo/jQuery-logo.png"
+                className="animation-logo competences-logo"
+                alt="jQuery" />
+            </p>
+          </div>
+          <div className="prog-back">
+            <h4>Back-End</h4>
+            <p className=" competences-container-logo">
+              <i class="animation-logo fa-brands fa-node-js"></i> <i class=" animation-logo fa-brands fa-php"></i>
+              <img src="https://meline-p.github.io/Ressources/images/Logo/expressjs-logo.png"
+                className=" animation-logo competences-logo"
+                alt="express.js" />
+              <img src="https://meline-p.github.io/Ressources/images/Logo/ejs-logo.png"
+                className=" animation-logo competences-logo"
+                alt="EJS" />
+              <img src="https://meline-p.github.io/Ressources/images/Logo/mysql-logo.png"
+                className=" animation-logo competences-logo"
+                alt="MySQL" />
+              <img src="https://meline-p.github.io/Ressources/images/Logo/mongodb-logo.png"
+                className="animation-logo competences-logo"
+                alt="MongoDB" />
+              <img src="https://meline-p.github.io/Ressources/images/Logo/mongoose-logo.png"
+                className="animation-logo competences-logo"
+                alt="Mongoose" />
+              <i class="animation-logo fa-solid fa-user-lock"></i> <i class=" animation-logo fa-solid fa-user-shield"></i> APIs
+            </p>
+          </div>
+          <div className="prog-version">
+            <h4>Hebergement / Version</h4>
+            <p className=" competences-container-logo">
+              <i class="animation-logo fa-brands fa-git"></i>{" "}
+              <i class="animation-logo fa-brands fa-github"></i>
+              <img src="https://meline-p.github.io/Ressources/images/Logo/heroku-logo.png"
+                className="animation-logo competences-logo"
+                alt="Heroku" />
+              <img src="https://meline-p.github.io/Ressources/images/Logo/mongodbatlas-logo.png"
+                className="animation-logo competences-logo"
+                alt="MongoDB Atlas" />
+            </p>
+          </div>
+        </div>
+
+
+        <div className="container-logiciels">
+          <h2><i class="fa-solid fa-computer"></i></h2>
+          <div className="log-3d">
+            <h4>Logiciels 3D</h4>
+            <p className=" competences-container-logo">
+              <img src="https://meline-p.github.io/Ressources/images/Logo/maya-logo.png"
+                className="animation-logo competences-logo"
+                alt="Maya" />
+              <img src="https://meline-p.github.io/Ressources/images/Logo/yeti-logo.png"
+                className="animation-logo competences-logo"
+                alt="Yeti" />
+              <img src="https://meline-p.github.io/Ressources/images/Logo/houdini-logo.png"
+                className="animation-logo competences-logo"
+                alt="Houdini" />
+              <img src="https://meline-p.github.io/Ressources/images/Logo/blender-logo.png"
+                className="animation-logo competences-logo"
+                alt="Blender" />
+              <img src="https://meline-p.github.io/Ressources/images/Logo/zbrush-logo.png"
+                className="animation-logo competences-logo"
+                alt="ZBrush" />
+              <img src="https://meline-p.github.io/Ressources/images/Logo/3dsmax-logo.png"
+                className="animation-logo competences-logo"
+                alt="3DSMax" />
+              <img src="https://meline-p.github.io/Ressources/images/Logo/nuke-logo.png"
+                className="animation-logo competences-logo"
+                alt="Nuke" />
+              <img src="https://meline-p.github.io/Ressources/images/Logo/mari-logo.png"
+                className="animation-logo competences-logo"
+                alt="Mari" />
+              <img src="https://meline-p.github.io/Ressources/images/Logo/substancepainter-logo.png"
+                className="animation-logo competences-logo"
+                alt="Substance Painter" />
+              <img src="https://meline-p.github.io/Ressources/images/Logo/substancedesigner-logo.png"
+                className="animation-logo competences-logo"
+                alt="Substance Designer" />
+              <img src="https://meline-p.github.io/Ressources/images/Logo/marvelousdesigner-logo.png"
+                className="animation-logo competences-logo"
+                alt="Marvelous Designer" />
+            </p>
+          </div>
+          <div className="log-2d"></div>
+          <h4>Adobe Suite</h4>
+          <p className="competences-container-logo">
+            <img src="https://meline-p.github.io/Ressources/images/Logo/photoshop-logo-03.png"
+              className="animation-logo competences-logo"
+              alt="Photoshop" />
+            <img src="https://meline-p.github.io/Ressources/images/Logo/indesign-logo-03.png"
+              className="animation-logo competences-logo"
+              alt="InDesign" />
+            <img src="https://meline-p.github.io/Ressources/images/Logo/illustrator-logo-03.png"
+              className="animation-logo competences-logo"
+              alt="Illustrator" />
+            <img src="https://meline-p.github.io/Ressources/images/Logo/aftereffects-logo-03.png"
+              className="animation-logo competences-logo"
+              alt="After Effects" />
+            <img src="https://meline-p.github.io/Ressources/images/Logo/premierepro-logo-03.png"
+              className="animation-logo competences-logo"
+              alt="Premiere Pro" />
+            <img src="https://meline-p.github.io/Ressources/images/Logo/mediaencoder-logo-03.png"
+              className="animation-logo competences-logo"
+              alt="Media Encoder" />
+          </p>
+        </div>
+
+        <div className="container-langues">
+          <h2><i class="fa-solid fa-language"></i></h2>
+          <div className="langues">
+
+            <div className="languagues-card">
+              <img alt="French Flag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg/1200px-Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg.png" />
+              <h4>Bonjour</h4>
+              <p>Native</p>
+            </div>
+
+            <div className="languagues-card">
+              <img alt="English Flag" src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/640px-Flag_of_the_United_Kingdom.svg.png" />
+              <h4>Hello</h4>
+              <p>Courant</p>
+            </div>
+
+            <div className="languagues-card">
+              <img alt="Spanish Flag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/1200px-Bandera_de_Espa%C3%B1a.svg.png" />
+              <h4>Holà</h4>
+              <p>Intermédiaire</p>
+            </div>
+
+            <div className="languagues-card">
+              <img alt="Italian Flag" src="https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/255px-Flag_of_Italy.svg.png" />
+              <h4>Buongiorno</h4>
+              <p>Débutante</p>
+            </div>
+
+            <div className="languagues-card">
+              <img alt="Korean Flag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Flag_of_South_Korea_%281997%E2%80%932011%29.svg/220px-Flag_of_South_Korea_%281997%E2%80%932011%29.svg.png" />
+              <h4>안녕하세요</h4>
+              <p>Débutante</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      {/* <h1 className="cv-titre-components">Compétences</h1>
       <div className="cv-competences-tabs">
         <Tabs defaultActiveKey={1} id="uncontrolled-tab-example">
           <Tab eventKey={1} title=<h2 className="competences-title"><i class="fa-solid fa-code"></i> Programmation</h2>>
@@ -186,53 +346,53 @@ export default function Competences() {
           <Tab eventKey={3} title=<h2 className="competences-title"><i class="fa-solid fa-language"></i> Langues</h2>>
             <CardGroup>
               <Card border="light" style={{ width: "18rem" }}>
-              <div className=" container-languages">
-                <Card.Body className="competences-languagues">
-                  <div className="languagues-card">
-                    <img alt="French Flag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg/1200px-Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg.png" />
-                    <h4>Bonjour</h4>
-                    <p>Native</p>
-                  </div>
-                </Card.Body>
+                <div className=" container-languages">
+                  <Card.Body className="competences-languagues">
+                    <div className="languagues-card">
+                      <img alt="French Flag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg/1200px-Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg.png" />
+                      <h4>Bonjour</h4>
+                      <p>Native</p>
+                    </div>
+                  </Card.Body>
 
-                <Card.Body className="competences-languagues">
-                  <div className="languagues-card">
-                    <img alt="English Flag"  src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/640px-Flag_of_the_United_Kingdom.svg.png" />
-                    <h4>Hello</h4>
-                    <p>Courant</p>
-                  </div>
-                </Card.Body>
+                  <Card.Body className="competences-languagues">
+                    <div className="languagues-card">
+                      <img alt="English Flag" src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/640px-Flag_of_the_United_Kingdom.svg.png" />
+                      <h4>Hello</h4>
+                      <p>Courant</p>
+                    </div>
+                  </Card.Body>
 
-                <Card.Body className="competences-languagues">
-                  <div className="languagues-card">
-                    <img alt="Spanish Flag"  src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/1200px-Bandera_de_Espa%C3%B1a.svg.png" />
-                    <h4>Holà</h4>
-                    <p>Intermédiaire</p>
-                  </div>
-                </Card.Body>
+                  <Card.Body className="competences-languagues">
+                    <div className="languagues-card">
+                      <img alt="Spanish Flag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/1200px-Bandera_de_Espa%C3%B1a.svg.png" />
+                      <h4>Holà</h4>
+                      <p>Intermédiaire</p>
+                    </div>
+                  </Card.Body>
 
-                <Card.Body className="competences-languagues">
-                  <div className="languagues-card">
-                    <img alt="Italian Flag"  src="https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/255px-Flag_of_Italy.svg.png" />
-                    <h4>Buongiorno</h4>
-                    <p>Débutante</p>
-                  </div>
-                </Card.Body>
+                  <Card.Body className="competences-languagues">
+                    <div className="languagues-card">
+                      <img alt="Italian Flag" src="https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/255px-Flag_of_Italy.svg.png" />
+                      <h4>Buongiorno</h4>
+                      <p>Débutante</p>
+                    </div>
+                  </Card.Body>
 
-                <Card.Body className="competences-languagues">
-                  <div className="languagues-card">
-                    <img alt="Korean Flag"  src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Flag_of_South_Korea_%281997%E2%80%932011%29.svg/220px-Flag_of_South_Korea_%281997%E2%80%932011%29.svg.png" />
-                    <h4>안녕하세요</h4>
-                    <p>Débutante</p>
-                  </div>
-                </Card.Body>
+                  <Card.Body className="competences-languagues">
+                    <div className="languagues-card">
+                      <img alt="Korean Flag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Flag_of_South_Korea_%281997%E2%80%932011%29.svg/220px-Flag_of_South_Korea_%281997%E2%80%932011%29.svg.png" />
+                      <h4>안녕하세요</h4>
+                      <p>Débutante</p>
+                    </div>
+                  </Card.Body>
                 </div>
               </Card>
             </CardGroup>
 
           </Tab>
         </Tabs>
-      </div>
+      </div> */}
     </div>
   );
 }

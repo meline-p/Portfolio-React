@@ -3,14 +3,204 @@
     --color2: #fff;
     --color3: #2b3a55;
     --color4: #f2e5e5;
-  }
-  
-  body {
-    font-family: "Poppins", sans-serif;
-  }
+}
 
-  /********************** Programmation / Logiciels ************************/
-.cv-competences-tabs{
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+.container-competences {
+    text-align: center;
+    display: grid;
+    grid-template-areas:
+        "comp comp comp"
+        "prog log lang";
+    gap: 50px;
+    padding: 0px 100px 50px 100px ;
+    font-family: "Poppins", sans-serif;
+   background-color: var(--color1);
+}
+
+.comp-title {
+    grid-area: comp;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    background-color: var(--color1);
+    padding: 70px 50px 10px 50px;
+    color: var(--color2);
+    font-weight: bold;
+}
+
+.container-competences h2 {
+    color: var(--color3);
+    font-size: 50px;
+    padding: 10px 30px 30px;
+    background-color: var(--color4);
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: auto;
+}
+
+.container-competences h4 {
+    color: var(--color3);
+    font-size: 20px;
+
+}
+
+.competences-logo {
+    width: 80px;
+
+}
+
+
+/* Programmation */
+
+.container-programmation {
+    grid-area: prog;
+    background-color: var(--color1);
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 30px;
+}
+.prog-front {
+    padding: 30px;
+}
+
+.prog-front p {
+    font-size: 50px;
+    color: var(--color2);
+}
+
+.prog-back{
+    padding: 30px;
+}
+
+.prog-back p {
+    font-size: 50px;
+    color: var(--color2);
+}
+
+.prog-version{
+    padding: 30px;
+}
+
+.prog-version p {
+    font-size: 50px;
+    color: var(--color2);
+}
+
+
+
+/* Logiciels */
+
+.container-logiciels {
+    grid-area: log;
+    background-color: var(--color1);
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.log-3d{
+    padding: 30px;
+}
+
+.log-3d p {
+    font-size: 50px;
+    color: var(--color2);
+}
+
+.log-2d{
+    padding: 30px;
+}
+.log-2d p {
+    font-size: 50px;
+    color: var(--color2);
+}
+
+
+/* Langues */
+
+.container-langues {
+    grid-area: lang;
+
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.languagues-card {
+    display: inline-block;
+    width: 350px;
+    margin: auto;
+    border-radius: 30px;
+    padding: 20px;
+    transform: translate(0px, 0px);
+    transition: transform 0.2s ease-out;
+}
+
+.languagues-card:hover {
+    transform: translate(10px, -10px);
+}
+
+.languagues-card h4 {
+    color: var(--color2);
+    font-size: 30px;
+}
+
+.languagues-card p{
+    color: var(--color4);
+}
+
+.languagues-card img {
+    height: 30px;
+    width: 50px;
+    margin: 10px;
+    object-fit: cover;
+    border-radius: 10px;
+    transform: rotate(0deg);
+    transition: transform 0.5s ease-out;
+}
+.languagues-card img:hover{
+    transform: rotate(360deg);
+}
+
+
+@media only screen and (max-width: 1400px) {
+    /* For Tablets */
+
+    .container-competences {
+        grid-template-areas:
+            "header header header"
+            "prog prog prog"
+            "log log log"
+            "lang lang lang";
+        padding: 0 50px;
+       
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Langues */
+
+
+
+/********************** Programmation / Logiciels ************************/
+
+.cv-competences-tabs {
     margin: 40px 25%;
     padding: 30px;
     border-left: 1px solid #ddd;
@@ -18,53 +208,51 @@
     padding: 10px;
 }
 
-.competences-title{
+.competences-title {
     color: var(--color3);
     font-size: 28px;
-}  
+}
 
-.competences-title:hover{
+.competences-title:hover {
     color: var(--color3);
 }
 
-.competences-title:active{
+.competences-title:active {
     color: var(--color3);
 }
 
-.competences-body{
+.competences-body {
     text-align: center;
     margin: 40px 20px;
     font-family: "Poppins", sans-serif;
 }
 
-.competences-body h4{
+.competences-body h4 {
     font-weight: bold;
     color: var(--color3);
     padding: 20px;
     font-size: 20px;
 }
 
-.competences-body p{
+.competences-body p {
     font-size: 40px;
     color: var(--color2);
 }
-.competences-container-logo{
+
+/* .competences-container-logo {
     background-color: var(--color1);
     border-radius: 10px;
     padding: 10px;
-}
+} */
 
-.competences-logo{
-    width: 90px;
-    
-}
 
-.animation-logo{
+
+.animation-logo {
     transform: translate(0px, 0px);
     transition: transform 0.2s ease-out;
 }
 
-.animation-logo:hover{
+.animation-logo:hover {
     transform: translate(10px, -10px);
 }
 
@@ -72,7 +260,7 @@
 
 /********************** LANGUES ************************/
 
-.container-languages{
+.container-languages {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -81,28 +269,16 @@
     padding: 40px;
 }
 
-.competences-languagues{
+.competences-languagues {
     margin: auto;
     text-align: center;
     font-family: "Poppins", sans-serif;
     width: 40%;
 }
 
-.languagues-card{
-    background-color: var(--color1);
-    width: 350px;
-    margin: auto;
-    border-radius: 30px;
-    padding: 20px; 
-    transform: translate(0px, 0px);
-    transition: transform 0.2s ease-out;
-}
 
-.languagues-card:hover{
-    transform: translate(10px, -10px);
-}
 
-.competences-languagues img{
+.competences-languagues img {
     height: 30px;
     width: 50px;
     position: relative;
@@ -114,16 +290,16 @@
     transition: transform 0.5s ease-out;
 }
 
-.competences-languagues img:hover{
+.competences-languagues img:hover {
     transform: rotate(360deg);
 }
 
-.competences-languagues h4{
+.competences-languagues h4 {
     font-size: 3em;
     color: var(--color2);
     padding: 10px;
 }
 
-.competences-languagues p{
+.competences-languagues p {
     color: var(--color2);
 }

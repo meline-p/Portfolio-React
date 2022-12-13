@@ -7,16 +7,19 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 export default function CV() {
   return (
-    <div>
-      <Router>
+    <div className="container-cv">
+      {/* <Router>
         <NavbarCV />
         <Switch>
           <Route exact path="/Portfolio/cv" component={ExperiencePro} />
           <Route exact path="/Portfolio/cv/formation"  component={Formation} />
           <Route exact path="/Portfolio/cv/competences"  component={Competences} />
         </Switch>
-        
-      </Router>
+      </Router> */}
+      <Competences />
+      <ExperiencePro />
+      <Formation />
+
     </div>
   );
 }

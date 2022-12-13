@@ -11,21 +11,38 @@ body {
 
 /********************** GROUP CARD  ************************/
 
-.home-cards {
+
+/* .home-cards {
   text-align: center;
   align-items: center;
   margin: 0 0 0 28%;
+} */
+
+.container-home-cards {
+  display: grid;
+  grid-template-areas:
+    "Card Presentation";
+  gap: 20px;
+  align-items: right;
 }
 
 /********************** HOME CARD  **********************/
 
-.profile {
+.container-profile {
+  grid-area: Card;
+  margin: auto;
+  align-items: center;
+  margin-right: 0;
+}
+
+/* .profile {
   border-style: none;
   box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.2);
   border-radius: 0;
   max-width: 18rem;
+  width: 16rem;
   display: inline-block;
-}
+} */
 
 .profile-body {
   background-color: var(--color4);
@@ -82,14 +99,15 @@ hr.solid {
 
 /********************** PRESENTATION **********************/
 
-.presentation {
-  padding: 30px;
-  max-width: 30%;
+.container-presentation {
+  grid-area: Presentation;
   border-style: none;
-
+  width: 20rem;
+  align-items: left;
+  margin-left: 20px;
 }
 
-.presentation-body{
+.presentation-body {
   background-color: transparent;
   border-style: none;
 }
@@ -97,7 +115,7 @@ hr.solid {
 .presentation-titre {
   font-size: 100px;
   font-weight: bold;
-  width: 30%;
+  min-width: 18rem;
   padding: 0 0px 30px 0;
   text-align: left;
 
@@ -112,7 +130,7 @@ hr.solid {
 
 .btn {
   display: inline-block;
-  width: 40%;
+  width: 6rem;
   border-radius: 30px;
   text-align: center;
   font-size: 12px;
@@ -139,6 +157,85 @@ hr.solid {
   border-color: var(--color3);
 }
 
-.presentation p {
+.presentation-body p {
   text-align: left;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1000px) {
+  /* For Tablets */
+
+  .container-home-cards {
+    display: grid;
+    grid-template-areas:
+      "Card Card"
+      "Presentation Presentation";
+    gap: 20px;
+  }
+
+  .container-profile {
+    grid-area: Card;
+    margin: auto;
+    align-items: center;
+    
+  }
+
+  .container-presentation {
+    grid-area: Presentation;
+    border-style: none;
+    width: 16rem;
+    align-items: center;
+    margin: auto;
+
+  }
+
+}
+
+@media only screen and (max-width: 700px) {
+
+  /* For Mobile */
+  .container-home-cards {
+    display: grid;
+    grid-template-areas:
+      "Card Card"
+      "Presentation Presentation";
+    gap: 20px;
+    align-items: center;
+    margin: auto;
+  }
+
+  .container-profile {
+    grid-area: Card;
+    margin: auto;
+    align-items: center;
+    padding: auto;
+    justify-content: center;
+  }
+
+  .container-presentation {
+    grid-area: Presentation;
+    border-style: none;
+    width: 18rem;
+    align-items: center;
+    margin: auto;
+    padding: 30px;
+
+  }
+
+  .presentation-titre {
+    font-size: 80px;
+    margin: 0;
+  }
+
+  .presentation-job {
+    font-size: 20px;
+    padding: 0 0px 30px 0;
+    text-align: center;
+  
+  }
+
+  .presentation-body p {
+    text-align: center;
+  }
 }

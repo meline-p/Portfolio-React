@@ -8,11 +8,13 @@ import Navbar from 'react-bootstrap/Navbar';
 export default function NavbarMain() {
   return (
 
-    <Navbar collapseOnSelect expand="lg" bg="light" variant="light" sticky="top" style={{ height: '80px' }} >
+    <Navbar collapseOnSelect expand="lg" bg="light" variant="light" sticky="top" style={{ minHeight: '80px' }} >
       <Container>
-        <Navbar.Brand href="/Portfolio">
-          <i class="fas fa-mug-hot"></i> Méline Pischedda
-          <span> / DEVELOPPEUSE WEB</span>
+        <Navbar.Brand  href="/Portfolio">
+          <h1 className="navbar-brand-name">
+            <i class="fas fa-mug-hot"></i> Méline Pischedda
+            <span> / DEVELOPPEUSE WEB</span>
+          </h1>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

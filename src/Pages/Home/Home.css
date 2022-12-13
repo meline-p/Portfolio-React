@@ -26,4 +26,26 @@
     padding: auto;
     color: var(--color3);
   }
+
+  @media only screen and (max-width: 900px) {
+    /* For Tablets */
+  }
   
+  @media only screen and (max-width: 600px) {
+
+    /* For Mobile */
+
+    .about {
+      margin: 50px;
+      text-align: center;
+      align-items: center;
+      color: var(--color3);
+    }
+
+    .bg-color{
+      height: 50vh;
+      width: 100%;
+      margin: 0;
+    }
+
+  }

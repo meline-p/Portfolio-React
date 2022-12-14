@@ -2,6 +2,7 @@ import React from "react";
 import ExperiencePro from "../../Components/ExperiencePro/ExperiencePro";
 import Formation from "../../Components/Formation/Formation";
 import Competences from "../../Components/Compétences/Competences";
+import Footer from "../../Components/Footer/Footer";
 import NavbarCV from "../../Components/NavbarCV/NavbarCV";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
@@ -19,7 +20,7 @@ export default function CV() {
       <Competences />
       <ExperiencePro />
       <Formation />
-
+      <Footer />
     </div>
   );
 }

@@ -20,6 +20,10 @@
     font-size: 18px;
   }
 
+  .nav-link{
+    color: var(--color3);
+  }
+
 /*   
   .navbar {
     background-color: var(--color2);

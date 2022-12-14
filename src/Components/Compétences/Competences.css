@@ -9,46 +9,46 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+.container-bg-comp{
+padding-bottom: 30px;
+}
 
 
 .container-competences {
-    text-align: center;
+    text-align: right;
     display: grid;
     grid-template-areas:
         "comp comp comp"
         "prog log lang";
     gap: 50px;
-    padding: 0px 100px 50px 100px ;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0 50px;
     font-family: "Poppins", sans-serif;
-   background-color: var(--color1);
+    color: var(--color3);
+
 }
 
-.comp-title {
-    grid-area: comp;
-    align-items: center;
-    margin: auto;
-    text-align: center;
-    font-family: "Poppins", sans-serif;
-    background-color: var(--color1);
-    padding: 70px 50px 10px 50px;
-    color: var(--color2);
-    font-weight: bold;
-}
+
 
 .container-competences h2 {
-    color: var(--color3);
-    font-size: 50px;
-    padding: 10px 30px 30px;
-    background-color: var(--color4);
-    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    width: auto;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--color1);
 }
 
 .container-competences h4 {
-    color: var(--color3);
     font-size: 20px;
+    padding-top: 8px;
+    padding-bottom: 3px;
+}
 
+hr{
+    display: inline-block;
+    margin: auto;
+    align-items: right;
+    width: 10%;
 }
 
 .competences-logo {
@@ -61,36 +61,8 @@ body {
 
 .container-programmation {
     grid-area: prog;
-    background-color: var(--color1);
-    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    padding: 30px;
-}
-.prog-front {
-    padding: 30px;
-}
-
-.prog-front p {
-    font-size: 50px;
-    color: var(--color2);
-}
-
-.prog-back{
-    padding: 30px;
-}
-
-.prog-back p {
-    font-size: 50px;
-    color: var(--color2);
-}
-
-.prog-version{
-    padding: 30px;
-}
-
-.prog-version p {
-    font-size: 50px;
-    color: var(--color2);
+    padding-right: 20px;
+    
 }
 
 
@@ -99,27 +71,7 @@ body {
 
 .container-logiciels {
     grid-area: log;
-    background-color: var(--color1);
-    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    padding: 30px;
-}
-
-.log-3d{
-    padding: 30px;
-}
-
-.log-3d p {
-    font-size: 50px;
-    color: var(--color2);
-}
-
-.log-2d{
-    padding: 30px;
-}
-.log-2d p {
-    font-size: 50px;
-    color: var(--color2);
+    padding-right: 20px;
 }
 
 
@@ -127,10 +79,8 @@ body {
 
 .container-langues {
     grid-area: lang;
-
-    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    padding: 30px;
+    padding-right: 0px;
+    
 }
 
 .languagues-card {
@@ -175,16 +125,42 @@ body {
 
     .container-competences {
         grid-template-areas:
-            "header header header"
-            "prog prog prog"
-            "log log log"
-            "lang lang lang";
+            "comp comp comp comp"
+            "prog prog log log"
+            "lang lang lang lang";
         padding: 0 50px;
        
     }
+
+    .container-langues {
+        grid-area: lang;
+        padding-right: 20px;
+        
+    }
+
 }
 
+@media only screen and (max-width: 700px) {
 
+    /* For Mobile */
+
+    .container-competences {
+        grid-template-areas:
+            "comp comp comp comp"
+            "prog prog prog prog"
+            "log log log log"
+            "lang lang lang lang";
+        padding: 0 50px;
+       
+    }
+
+    .container-langues {
+        grid-area: lang;
+        padding-right: 20px;
+        
+    }
+
+}
 
 
 

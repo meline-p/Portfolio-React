@@ -3,13 +3,68 @@
     --color2: #fff;
     --color3: #2b3a55;
     --color4: #f2e5e5;
-  }
-  
-  body {
-    font-family: "Poppins", sans-serif;
-  }
+}
 
-.cv-list-formation{
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+
+.container-formation {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    text-align: right;
+    flex-direction: row;
+    font-family: "Poppins", sans-serif;
+    color: var(--color3);
+}
+
+.container-school {
+    padding: 50px 0px 0px 20px;
+    width: 400px;
+}
+
+.formation-diploma {
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--color1);
+}
+
+.formation-school {
+    font-size: 20px;
+
+}
+
+.formation-year {
+    font-size: 16px;
+    opacity: 50%;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    /* For Tablets */
+    .container-school {
+        padding: 50px 0px 0px 20px;
+        width: 350px;
+    }
+}
+
+
+@media only screen and (max-width: 700px) {
+
+    /* For Mobile */
+    .container-school {
+        padding: 50px 0px 0px 20px;
+        width: 300px;
+    }
+}
+
+/* .cv-list-formation{
     margin: auto;
     padding: 30px;
     display: flex;
@@ -61,4 +116,4 @@
 .formation-icon{
     font-size: 40px;
     color: var(--color1);
-}
+} */

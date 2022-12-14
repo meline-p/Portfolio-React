@@ -39,15 +39,18 @@ export default function Competences() {
 
   return (
     <div className="cv-components">
-      <h1 className="comp-title">Compétences</h1>
+      <div className="container-bg-comp">
+        <h1 className="comp-title">Compétences</h1>
 
-      <div className="container-competences">
-        <div className="container-programmation">
-          <h2><i class="fa-solid fa-code"></i></h2>
-          <div className="prog-front">
-            <h4>Front-End</h4>
-            <p className=" competences-container-logo">
-              <i class="animation-logo fa-brands fa-html5"></i>{" "}
+        <div className="container-competences">
+          <div className="container-programmation">
+            <h2>Programmation</h2>
+            <hr />
+            <div className="prog-front">
+              <h4>Front-End</h4>
+              <p className=" competences-container-logo">
+                HTML 5, CSS 3, JavaScript ES6, Sass, Bootstrap, React, Wordpress, jQuery
+                {/* <i class="animation-logo fa-brands fa-html5"></i>{" "}
               <i class="animation-logo fa-brands fa-css3-alt"></i>{" "}
               <i class="animation-logo fa-brands fa-square-js"></i>{" "}
               <i class="animation-logo fa-brands fa-sass"></i>{" "}
@@ -56,13 +59,14 @@ export default function Competences() {
               <i class="animation-logo fa-brands fa-wordpress"></i>
               <img src="https://meline-p.github.io/Ressources/images/Logo/jQuery-logo.png"
                 className="animation-logo competences-logo"
-                alt="jQuery" />
-            </p>
-          </div>
-          <div className="prog-back">
-            <h4>Back-End</h4>
-            <p className=" competences-container-logo">
-              <i class="animation-logo fa-brands fa-node-js"></i> <i class=" animation-logo fa-brands fa-php"></i>
+                alt="jQuery" /> */}
+              </p>
+            </div>
+            <div className="prog-back">
+              <h4>Back-End</h4>
+              <p className=" competences-container-logo">
+                Node.js, php, Express.js, EJS, MySQL, MongoDB, Mongoose, APIs, Authentification, Sécurité
+                {/* <i class="animation-logo fa-brands fa-node-js"></i> <i class=" animation-logo fa-brands fa-php"></i>
               <img src="https://meline-p.github.io/Ressources/images/Logo/expressjs-logo.png"
                 className=" animation-logo competences-logo"
                 alt="express.js" />
@@ -78,31 +82,34 @@ export default function Competences() {
               <img src="https://meline-p.github.io/Ressources/images/Logo/mongoose-logo.png"
                 className="animation-logo competences-logo"
                 alt="Mongoose" />
-              <i class="animation-logo fa-solid fa-user-lock"></i> <i class=" animation-logo fa-solid fa-user-shield"></i> APIs
-            </p>
-          </div>
-          <div className="prog-version">
-            <h4>Hebergement / Version</h4>
-            <p className=" competences-container-logo">
-              <i class="animation-logo fa-brands fa-git"></i>{" "}
+              <i class="animation-logo fa-solid fa-user-lock"></i> <i class=" animation-logo fa-solid fa-user-shield"></i> APIs */}
+              </p>
+            </div>
+            <div className="prog-version">
+              <h4>Hebergement / Version</h4>
+              <p className=" competences-container-logo">
+                Git, GitHub, Heroku, MongoDB Atlas
+                {/* <i class="animation-logo fa-brands fa-git"></i>{" "}
               <i class="animation-logo fa-brands fa-github"></i>
               <img src="https://meline-p.github.io/Ressources/images/Logo/heroku-logo.png"
                 className="animation-logo competences-logo"
                 alt="Heroku" />
               <img src="https://meline-p.github.io/Ressources/images/Logo/mongodbatlas-logo.png"
                 className="animation-logo competences-logo"
-                alt="MongoDB Atlas" />
-            </p>
+                alt="MongoDB Atlas" /> */}
+              </p>
+            </div>
           </div>
-        </div>
 
 
-        <div className="container-logiciels">
-          <h2><i class="fa-solid fa-computer"></i></h2>
-          <div className="log-3d">
-            <h4>Logiciels 3D</h4>
-            <p className=" competences-container-logo">
-              <img src="https://meline-p.github.io/Ressources/images/Logo/maya-logo.png"
+          <div className="container-logiciels">
+            <h2>Logiciels</h2>
+            <hr />
+            <div className="log-3d">
+              <h4>Logiciels 3D</h4>
+              <p className=" competences-container-logo">
+                Maya, Yeti, Houdini, Blender, zBrush, 3DSMax, Nuke, Mari, Substance Painter, Substance Designer, Marvelous Designer
+                {/* <img src="https://meline-p.github.io/Ressources/images/Logo/maya-logo.png"
                 className="animation-logo competences-logo"
                 alt="Maya" />
               <img src="https://meline-p.github.io/Ressources/images/Logo/yeti-logo.png"
@@ -134,13 +141,14 @@ export default function Competences() {
                 alt="Substance Designer" />
               <img src="https://meline-p.github.io/Ressources/images/Logo/marvelousdesigner-logo.png"
                 className="animation-logo competences-logo"
-                alt="Marvelous Designer" />
-            </p>
-          </div>
-          <div className="log-2d"></div>
-          <h4>Adobe Suite</h4>
-          <p className="competences-container-logo">
-            <img src="https://meline-p.github.io/Ressources/images/Logo/photoshop-logo-03.png"
+                alt="Marvelous Designer" /> */}
+              </p>
+            </div>
+            <div className="log-2d"></div>
+            <h4>Adobe Suite</h4>
+            <p className="competences-container-logo">
+              Photoshop, inDesign, Illustrator, After Effects, Premiere Pro, Media Encoder
+              {/* <img src="https://meline-p.github.io/Ressources/images/Logo/photoshop-logo-03.png"
               className="animation-logo competences-logo"
               alt="Photoshop" />
             <img src="https://meline-p.github.io/Ressources/images/Logo/indesign-logo-03.png"
@@ -157,15 +165,21 @@ export default function Competences() {
               alt="Premiere Pro" />
             <img src="https://meline-p.github.io/Ressources/images/Logo/mediaencoder-logo-03.png"
               className="animation-logo competences-logo"
-              alt="Media Encoder" />
-          </p>
-        </div>
+              alt="Media Encoder" /> */}
+            </p>
+          </div>
 
-        <div className="container-langues">
-          <h2><i class="fa-solid fa-language"></i></h2>
-          <div className="langues">
+          <div className="container-langues">
+            <h2>Langues</h2>
+            <hr />
+            <div className="langues">
+              <div>Bonjour - Native</div>
+              <div>Hello - Courant</div>
+              <div>Holà - Intermédiaire</div>
+              <div>Buongiorno - Débutante</div>
+              <div>안녕하세요 - Débutante</div>
 
-            <div className="languagues-card">
+              {/* <div className="languagues-card">
               <img alt="French Flag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg/1200px-Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg.png" />
               <h4>Bonjour</h4>
               <p>Native</p>
@@ -193,13 +207,13 @@ export default function Competences() {
               <img alt="Korean Flag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Flag_of_South_Korea_%281997%E2%80%932011%29.svg/220px-Flag_of_South_Korea_%281997%E2%80%932011%29.svg.png" />
               <h4>안녕하세요</h4>
               <p>Débutante</p>
-            </div>
+            </div> */}
 
+            </div>
           </div>
         </div>
-      </div>
 
-      {/* <h1 className="cv-titre-components">Compétences</h1>
+        {/* <h1 className="cv-titre-components">Compétences</h1>
       <div className="cv-competences-tabs">
         <Tabs defaultActiveKey={1} id="uncontrolled-tab-example">
           <Tab eventKey={1} title=<h2 className="competences-title"><i class="fa-solid fa-code"></i> Programmation</h2>>
@@ -393,6 +407,7 @@ export default function Competences() {
           </Tab>
         </Tabs>
       </div> */}
+      </div>
     </div>
   );
 }

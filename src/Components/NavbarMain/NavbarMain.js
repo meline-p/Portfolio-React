@@ -21,28 +21,28 @@ export default function NavbarMain() {
           <Nav className="justify-content-end flex-grow-1 pe-3">
             <ul class="nav justify-content-end">
               <li class="nav-item">
-                <Link to="/Portfolio/" className="nav-link">
-                  A PROPOS DE MOI
+                <Link to="/Portfolio/" className="nav-link" style={{ textDecoration: 'none' }}>
+                  HOME
                 </Link>
               </li>
 
               <li class="nav-item">
-                <Link to="/Portfolio/cv" className="nav-link">
+                <Link to="/Portfolio/cv" className="nav-link" style={{ textDecoration: 'none' }}>
                   CV
                 </Link>
               </li>
 
               <li class="nav-item">
-                <Link to="/Portfolio/projets" className="nav-link">
+                <Link to="/Portfolio/projets" className="nav-link" style={{ textDecoration: 'none' }}>
                   PROJETS
                 </Link>
               </li>
 
-              <li class="nav-item">
+              {/* <li class="nav-item">
                 <Link to="/Portfolio/contact" className="nav-link">
                   CONTACT
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </Nav>
         </Navbar.Collapse>

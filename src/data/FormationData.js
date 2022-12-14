@@ -1,5 +1,11 @@
 const FormationData =[
     {
+        diploma: "Autodidacte Formation Développement Web",
+        school: "Udemy",
+        year: "2022",
+        id: 6
+    },
+    {
         diploma: "Master Concepteur Réalisateur 3D",
         school: "MoPA",
         year: "2018-2021",

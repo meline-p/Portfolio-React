@@ -7,7 +7,7 @@ export default function Contact() {
     <div >
       <h1 className="contact-title">Contactez-moi</h1>
 
-      <Form className="formulaire">
+      {/* <Form className="formulaire">
         <div className="postal-card-left">
 
           <Form.Group className="mb-3" id="services">
@@ -23,20 +23,20 @@ export default function Contact() {
             <Form.Label>Message</Form.Label>
             <Form.Control as="textarea" aria-label="With textarea" rows="12" cols="33" />
           </Form.Group>
+        </div> */}
+
+
+      {/* <div className="postal-card-right"> */}
+
+
+        <div className="contact-mes-infos">
+          <h4>Méline Pischedda</h4>
+          <p>meline.pischedda@gmail.com</p>
+          <p>06 23 36 90 92</p>
+          <p>Aix-en-Provence</p>
         </div>
 
-
-        <div className="postal-card-right">
-
-
-          <div className="contact-mes-infos">
-            <h4>Méline Pischedda</h4>
-            <p>meline.pischedda@gmail.com</p>
-            <p>06 23 36 90 92</p>
-            <p>Aix-en-Provence</p>
-          </div>
-
-          <Form.Group className="mb-3" id="name">
+        {/* <Form.Group className="mb-3" id="name">
             <Form.Label>Nom</Form.Label>
             <Form.Control aria-label="Last name" placeholder="Nom" />
           </Form.Group>
@@ -56,13 +56,13 @@ export default function Contact() {
         </div>
 
 
-      </Form>
-      <div className="contact-envoyer">
+      </Form> */}
+        {/* <div className="contact-envoyer">
         <Button className="contact-button" variant="primary" type="submit">
           Submit
         </Button>
-      </div>
+      </div> */}
 
-    </div>
-  );
+      </div>
+      );
 }

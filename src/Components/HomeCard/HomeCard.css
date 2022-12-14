@@ -113,11 +113,12 @@ hr.solid {
 }
 
 .presentation-titre {
-  font-size: 100px;
+  font-size: 120px;
   font-weight: bold;
   min-width: 18rem;
   padding: 0 0px 30px 0;
   text-align: left;
+  font-family: 'Licorice', sans-serif; 
 
 }
 

@@ -1,0 +1,11 @@
+.footer{
+    background-color: var(--color1);
+    margin: 0 ;
+    text-align: center;
+    padding: 30px;
+    color: var(--color2);
+}
+
+.footer h4{
+    padding: 10px;
+}

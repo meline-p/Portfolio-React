@@ -6,9 +6,29 @@ export default function ExperiencePro() {
   return (
     <section>
       <div className="cv-components">
-        <h1 className="cv-titre-components">Expérience Professionnelle</h1>
+        <div className="container-bg-xp">
+          <h1 className="comp-title">Expérience Professionnelle</h1>
 
-        <div className="cv-list-job">
+          <div className="container-xp">
+            {ExperienceProData.map((xp) => (
+              <div>
+                <div className="container-job">
+                  <h3 className="job-name">{xp.job}</h3>
+                  <div>
+
+                    <h4 className="job-company"><img className="job-img" src={xp.img} alt={xp.company} />  {xp.company} <span>- {xp.place}</span></h4>
+                  </div>
+
+                  <h5 className="job-year">{xp.year} <span>{xp.timeLength}</span></h5>
+                  <p className="job-body">{xp.description}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+
+        </div>
+
+        {/* <div className="cv-list-job">
           <Accordion defaultActiveKey="6">
             {ExperienceProData.map((xp) => (
               <Accordion.Item eventKey={xp.id}>
@@ -38,7 +58,7 @@ export default function ExperiencePro() {
             ))}
           </Accordion>
 
-        </div>
+        </div> */}
       </div>
     </section>
   );

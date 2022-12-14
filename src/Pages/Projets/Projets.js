@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import projetsData from "../../data/projetsData"
 import ProjetsCard from "../../Components/ProjetsCard/ProjetsCard";
 import ProjetsButtons from "../../Components/ProjetsCard/ProjetsButtons";
+import Footer from "../../Components/Footer/Footer";
 
 export default function Projets() {
 
@@ -55,6 +56,8 @@ export default function Projets() {
         </div>
         <ProjetsCard item={item} />
       </div>
+
+      <Footer />
     </div>
 
   );

@@ -52,11 +52,10 @@
 }
 
 .container-projets-title{
-  padding: 50px 20px;
-  font-weight: bold;
-  margin: auto;
+  font-family: 'Licorice', sans-serif;
   text-align: center;
-  font-family: "Poppins", sans-serif;
+  font-size: 100px;
+  padding: 30px;
 }
 
 .container-projets-buttons{

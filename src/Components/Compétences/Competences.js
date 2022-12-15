@@ -1,8 +1,8 @@
 import React from "react";
-import Tab from "react-bootstrap/Tab";
-import Tabs from "react-bootstrap/Tabs";
-import Card from "react-bootstrap/Card";
-import CardGroup from "react-bootstrap/CardGroup";
+// import Tab from "react-bootstrap/Tab";
+// import Tabs from "react-bootstrap/Tabs";
+// import Card from "react-bootstrap/Card";
+// import CardGroup from "react-bootstrap/CardGroup";
 
 // import jQuery from "https://meline-p.github.io/Ressources/images/Logo/jQuery-logo.png";
 // import expressJs from "https://meline-p.github.io/Ressources/images/Logo/expressjs-logo.png";

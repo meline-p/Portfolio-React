@@ -1,32 +1,129 @@
 :root {
-    --color1: #ce7777;
-    --color2: #fff;
-    --color3: #2b3a55;
-    --color4: #f2e5e5;
-  }
-  
-  body {
-    font-family: "Poppins", sans-serif;
-  }
-  
+  --color1: #ce7777;
+  --color2: #fff;
+  --color3: #2b3a55;
+  --color4: #f2e5e5;
+}
 
-  .comp-title {
-    grid-area: comp;
-    font-family: 'Licorice', sans-serif;
-    text-align: right;
-    font-size: 100px;
-    padding: 50px 50px 0px;
-    margin-right: 10%;
+body {
+  font-family: "Poppins", sans-serif;
 }
 
 
-.cv-components{
+.comp-title {
+  grid-area: comp;
+  font-family: "Poppins", sans-serif;
+  text-align: right;
+  font-size: 35px;
+  padding: 50px 50px 0px;
+  margin-right: 10%;
+  font-weight: bold;
+  color: var(--color3);
+}
+
+
+.cv-components {
   background-color: var(--color4);
   padding: 0;
   margin: 0;
 }
 
 
+
+
+.container-profil-info {
+  padding: 30px;
+  text-align: right;
+  font-family: "Poppins", sans-serif;
+  color: var(--color3);
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
+.container-profil-header {
+  padding: 30px;
+}
+
+.profil-info-titre {
+  font-weight: bold;
+}
+
+.profil-intro {
+  font-style: italic;
+}
+
+.profil-intro span {
+  font-weight: bold;
+  color: var(--color1)
+}
+
+
+.container-profil-body {
+  padding: 30px;
+  display: grid;
+  grid-template-areas:
+    "dev troisd"
+    "foot troisd";
+  gap: 20px;
+  text-align: left;
+}
+
+.profil-dev {
+  grid-area: dev;
+}
+
+.profil-dev span {
+  font-weight: bold;
+  color: var(--color1)
+}
+
+.profil-3d {
+  grid-area: troisd;
+}
+
+.profil-3d span {
+  font-weight: bold;
+  color: var(--color1)
+}
+
+.profil-footer {
+  grid-area: foot;
+  padding-top: 10px;
+}
+
+.profil-footer hr {
+  display: inline-block;
+  margin: auto;
+  align-items: right;
+  width: 20%;
+  padding-bottom: 5px;
+}
+
+.profil-footer-dev {
+  color: var(--color1);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.profil-footer-3d {
+  color: var(--color1);
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 900px) {
+  /* For Tablets */
+
+  
+  .container-profil-body {
+    grid-template-areas:
+      "dev dev"
+      "troisd troisd"
+      "foot foot";
+  }
+}
 
 @media only screen and (max-width: 700px) {
 
@@ -39,10 +136,22 @@
     font-size: 60px;
     padding: 50px 50px 0px;
     margin-right: 5%;
-    
-}
 
-  
+  }
+
+  .container-profil-info{
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  .container-profil-body {
+    grid-template-areas:
+      "dev dev"
+      "troisd troisd"
+      "foot foot";
+  }
+
+
 }
 
 

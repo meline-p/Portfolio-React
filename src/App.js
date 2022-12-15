@@ -10,10 +10,11 @@ import "./Components/Compétences/Competences.css"
 import "./Components/Formation/Formation.css"
 import "./Components/Services/Services.css"
 import "./Components/Footer/Footer.css";
+import "./Components/BarreResSo/BarreResSo.css";
 import NavbarMain from "./Components/NavbarMain/NavbarMain";
 import Home from "./Pages/Home/Home";
 import CV from "./Pages/CV/CV";
-import Contact from "./Pages/Contact/Contact";
+// import Contact from "./Pages/Contact/Contact";
 import Projets from "./Pages/Projets/Projets";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import '@trendmicro/react-sidenav/dist/react-sidenav.css';

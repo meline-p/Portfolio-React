@@ -13,7 +13,7 @@ export default function NavbarMain() {
         <Navbar.Brand  href="/Portfolio">
           <h1 className="navbar-brand-name">
             <i class="fas fa-mug-hot"></i> Méline Pischedda
-            <span> / DEVELOPPEUSE WEB</span>
+            <span> / DEV & 3D</span>
           </h1>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -22,19 +22,19 @@ export default function NavbarMain() {
             <ul class="nav justify-content-end">
               <li class="nav-item">
                 <Link to="/Portfolio/" className="nav-link" style={{ textDecoration: 'none' }}>
-                  HOME
+                  Home
                 </Link>
               </li>
 
               <li class="nav-item">
                 <Link to="/Portfolio/cv" className="nav-link" style={{ textDecoration: 'none' }}>
-                  CV
+                  Profil
                 </Link>
               </li>
 
               <li class="nav-item">
                 <Link to="/Portfolio/projets" className="nav-link" style={{ textDecoration: 'none' }}>
-                  PROJETS
+                  Projets
                 </Link>
               </li>
 

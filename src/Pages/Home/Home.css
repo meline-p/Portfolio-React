@@ -1,51 +1,91 @@
 :root {
-    --color1: #ce7777;
-    --color2: #fff;
-    --color3: #2b3a55;
-    --color4: #f2e5e5;
+  --color1: #ce7777;
+  --color2: #fff;
+  --color3: #2b3a55;
+  --color4: #f2e5e5;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-color {
+  height: 100vh;
+  width: 40%;
+  background-color: var(--color1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.about {
+  margin: 100px;
+  text-align: center;
+  align-items: center;
+  padding: auto;
+  color: var(--color3);
+
+}
+
+.home-scroll {
+  position: relative;
+  top: 250px;
+  transform: scale(1);
+  transform: translate(0px, -10px);
+  transition: transform 0.5s ease-out;
+}
+.home-scroll:hover{
+ transform: scale(1.05);
+ transform: translate(0px, 0px);
+}
+
+.container-home-img {
+  margin-top: 270px;
+  padding: 0;
+  height: 800px ;
+  background-image: url("https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80") ;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+/* .home-img {
+  width: 100%;
+  height: 800px;
+  object-fit: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat, repeat-y;
+} */
+
+@media only screen and (max-width: 900px) {
+  /* For Tablets */
+
+  .container-home-img {
+    background-attachment: scroll;
   }
-  
-  body {
-    font-family: "Poppins", sans-serif;
-  }
-  
-  .bg-color {
-    height: 100vh;
-    width: 40%;
-    background-color: var(--color1);
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-  }
-  
+}
+
+@media only screen and (max-width: 600px) {
+
+  /* For Mobile */
+
   .about {
-    margin: 100px;
+    margin: 50px;
     text-align: center;
     align-items: center;
-    padding: auto;
     color: var(--color3);
   }
 
-  @media only screen and (max-width: 900px) {
-    /* For Tablets */
+  .bg-color {
+    height: 50vh;
+    width: 100%;
+    margin: 0;
   }
-  
-  @media only screen and (max-width: 600px) {
 
-    /* For Mobile */
-
-    .about {
-      margin: 50px;
-      text-align: center;
-      align-items: center;
-      color: var(--color3);
-    }
-
-    .bg-color{
-      height: 50vh;
-      width: 100%;
-      margin: 0;
-    }
-
+  .container-home-img {
+    background-attachment: scroll;
   }
+
+}

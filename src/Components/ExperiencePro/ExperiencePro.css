@@ -45,7 +45,7 @@ body {
 }
 .job-company span{
     font-style: italic;
-    opacity: 50%;
+    color: lightgrey ;
 }
 .job-img{
     width: 40px;
@@ -59,7 +59,7 @@ body {
 }
 .job-year span{
     font-style: italic;
-    opacity: 50%;
+    color: lightgrey ;
 }
 
 .job-body{

@@ -29,7 +29,7 @@ export default function HomeCard() {
         <div className="container-presentation" >
           <div className="presentation-body">
             <h5 className="presentation-titre">Hello,</h5>
-            <h6 className="presentation-job">Je suis <br /> Développeuse Web</h6>
+            <h6 className="presentation-job">Je suis<br /><span className="sec-text"></span></h6>
           </div>
         </div>
 

@@ -24,7 +24,7 @@ body {
     "Card Presentation";
   gap: 20px;
   align-items: right;
-  padding-top: 100px ;
+  padding-top: 100px;
 }
 
 /********************** HOME CARD  **********************/
@@ -38,8 +38,9 @@ body {
   padding-right: 30px;
   transition: transform 0.5s ease-out;
 }
-.container-profile:hover{
-  transform: rotate(2deg) ;
+
+.container-profile:hover {
+  transform: rotate(2deg);
 }
 
 /* .profile {
@@ -121,8 +122,38 @@ hr.solid {
   font-size: 35px;
   padding: 0 0px 30px 0;
   text-align: left;
-
+  /* overflow: hidden; */
+  /* position: relative; */
 }
+
+.sec-text{
+  color: var(--color1);
+  font-weight: bold;
+}
+
+/* .sec-text::before {
+  content: ""; */
+  /* position: absolute;
+  top:38px;
+  left: 0;
+  height: 50%;
+  width: 0%;
+  background-color: var(--color2); */
+  /* border-left: 3px solid var(--color1); */
+  /* animation: animate 2s linear infinite; */
+/* 
+} */
+
+/* @keyframes animate {
+  40%, 60% {
+    left: calc(100% + 4px);
+  }
+  100% {
+    left: 100%;
+  }
+} */
+
+
 
 .btn {
   display: inline-block;
@@ -156,6 +187,53 @@ hr.solid {
 .presentation-body p {
   text-align: left;
 }
+
+
+
+
+/* CHANGING CONTENT CSS */
+
+
+.sec-text:after {
+  content: "";
+  animation: animate 10s linear infinite;  
+}
+
+@keyframes animate {
+  0% {
+    content: "Développeuse Web";
+  }
+
+  14% {
+    content: "Artiste 3D";
+  }
+
+  28% {
+    content: "Dev Front-End";
+  }
+
+  47% {
+    content: "Généraliste 3D";
+  }
+
+  57% {
+    content: "Dev Back-End";
+  }
+
+  71% {
+    content: "Grooming Artist";
+  }
+
+  85% {
+    content: "Dev Full-Stack";
+  }
+
+  100% {
+    content: "CFX Artist";
+  }
+}
+
+
 
 /* MEDIA QUERIES */
 

@@ -20,9 +20,9 @@ export default function Projets() {
   const env = process.env;
   env.PUBLIC_URL = env.PUBLIC_URL + "Portfolio/" || "Portfolio/";
 
-  // const openInNewTab = url => {
-  //   window.open(url, '_blank', 'noopener,noreferrer');
-  // };
+  const openInNewTab = url => {
+    window.open(url, '_blank', 'noopener,noreferrer');
+  };
 
   return (
     <div>
@@ -54,7 +54,7 @@ export default function Projets() {
             />
           </div>
         </div>
-        <ProjetsCard item={item} />
+        <ProjetsCard onClick={() => openInNewTab(item.url)} item={item} />
       </div>
 
       <Footer />
